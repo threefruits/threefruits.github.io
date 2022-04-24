@@ -250,13 +250,13 @@ h1, h2, h3, h4, h5, h6 {
   top: 15px;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 900px) {
   .mobile-nav-toggle {
     display: block;
   }
 
   .navbar ul {
-    display: none;
+    display: flex;
   }
 }
 .navbar-mobile {

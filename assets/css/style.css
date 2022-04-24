@@ -250,7 +250,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 15px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 90px) {
   .mobile-nav-toggle {
     display: block;
   }

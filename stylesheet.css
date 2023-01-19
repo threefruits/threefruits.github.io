@@ -143,6 +143,36 @@ span.highlight {
   background: linear-gradient(to right, transparent, #3c4699, transparent);
 }
 
+.hr-double-arrow {
+  color: #d0d0d5;
+  border: double;
+  border-width: 3px 5px;
+  border-color: #b5b5d6 transparent;
+  height: 1px;
+  overflow: visible;
+  margin-left: 20px;
+  margin-right: 20px;
+  position: relative;
+}
+.hr-double-arrow:before, 
+.hr-double-arrow:after {
+  content: '';
+  position: absolute;
+  width: 5px; height: 5px;
+  border-width: 0 3px 3px 0;
+  border-style: double;
+  top: -3px;
+  background: radial-gradient(2px at 1px 1px, currentColor 2px, transparent 0) no-repeat;
+}
+.hr-double-arrow:before {
+  transform: rotate(-45deg);
+  left: -20px;
+}
+.hr-double-arrow:after {
+  transform: rotate(135deg);
+  right: -20px;
+}
+
 img {
   border: 0px solid #555;
   border-radius: 20px;

@@ -75,7 +75,9 @@ a:hover {
 }
 
 
-html {background-color: #f9f4dc;}
+html {
+  background-color: #e3fbef;
+}
 
 
 body,
@@ -89,7 +91,7 @@ a
   font-family: "TeXGyrePagella", "Palatino Linotype", "Book Antiqua", Palatino, serif; 
 
   font-size: 15px;
-  line-height: 1.3
+  line-height: 1.3;
 }
 
 
@@ -144,6 +146,7 @@ ch_name {
 
 span.highlight {
   background-color: #ffffd0;
+  /* background-image: url(/images/texture.png); */
 }
 
 .hr-edge-weak {

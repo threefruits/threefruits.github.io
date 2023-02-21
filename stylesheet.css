@@ -190,3 +190,11 @@ img {
   border: 0px solid #555;
   border-radius: 20px;
 }
+
+.clickable-text {
+  border: none;
+  color: rgb(255, 131, 53);
+  /* text-decoration: underline; */
+  /* background-color: transparent; */
+  cursor: pointer;
+}

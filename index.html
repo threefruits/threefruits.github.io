@@ -7,35 +7,51 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
 	<link rel="icon" href="icon.png">
 </head>
+
+
 
 <body>
   <table style="width:900px;max-width:900px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
     <tr style="padding:0px">
       <td style="padding:0px">
-
+        
         <!-- ======= About Section ======= -->
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr style="padding:0px">
             <p style="margin:20px 0 -5px 0px;text-align:center">
-              <name>Anxing (Anthony) Xiao <ch_name>肖岸星</ch_name> </name>
+              <name>Anxing Xiao <ch_name>肖岸星</ch_name> </name>
               <br>
-              <strong>email</strong>: anxiaox [at] comp.nus.edu.sg
+              <a class="clickable-text" onclick="pronounce()">Click to pronounce</a>
+              <audio id="pronunciation">
+                <source src="data/pronounce.m4a" type="audio/mpeg">
+              </audio>
+              <script>
+                function pronounce() {
+                  var audio = document.getElementById("pronunciation");
+                  audio.play();
+                }
+              </script>
+              <br>
+              <strong>Email</strong>: anxingxiao [at] u.nus.edu  &nbsp  <strong>Office</strong>: COM3-B1-33
             </p>
-      
+            
+            
+            
             <td style="padding:2%;width:30%;max-width:33%">
               <img style="width:100%;max-width:100%" alt="profile photo" src="images/head.jpg" class="hoverZoomLink">
             </td>
             <td style="padding:2.5%;width:67%;vertical-align:middle">
               <p >
-                I am a first year Ph.D. student at the National University of Singapore in the <a href="https://www.comp.nus.edu.sg/">School of Computing</a>. My research interest lies in the intersection of Robotics, Reasoning and Decision Making with their applications in complex, real-world environments.
+                I am a first-year Ph.D. student at National University of Singapore in <a href="https://www.comp.nus.edu.sg/cs/">Department of Computer Science</a>. My research interest lies in the intersection of Robotics, Reasoning and Decision Making with their applications in complex, real-world environments.
               </p>
               <p>
-                Previously, I worked as a research assistant with <a href='https://www.ee.cuhk.edu.hk/~qhmeng/about.html'>Prof. Max Q.-H. Meng </a> (SUSTech/CUHK). Before that, I was a visiting student at UC Berkeley from Aug. 2019 to Sep. 2020 and worked in the <a href='https://hybrid-robotics.berkeley.edu/'>Hybrid Robotics Lab</a> with <a href='https://hybrid-robotics.berkeley.edu/koushil/'>Prof. Koushil Sreenath</a>. I received my B.E. in Automation from the Harbin Institute of Technology, Shenzhen in 2021.             
+                Previously, I worked as a Research Assistant with <a href='https://www.ee.cuhk.edu.hk/~qhmeng/about.html'>Prof. Max Q.-H. Meng </a>. Before that, I was a visiting student at UC Berkeley from Aug. 2019 to Sep. 2020 working with <a href='https://hybrid-robotics.berkeley.edu/koushil/'>Prof. Koushil Sreenath</a>. I received my B.E. in Automation from the Harbin Institute of Technology, Shenzhen in 2021.             
               </p>
               <p>
-                I love playing basketball 🏀 and table tennis 🏓 in my free time.
+                I love playing basketball 🏀 and table tennis 🏓 in my free time. I am also open to collaborating with people to explore the possibilities of robotics in various fields.
               </p>
               <p style="text-align:center">
                 <a href="data/CV_AnxingXiao.pdf">CV</a> &nbsp/&nbsp
@@ -58,7 +74,7 @@
               <heading>Research</heading>
 
               <p style="margin:15px 0 -5px 0px;">
-                My current research topics cover planning & control, assistive robotics, and general autonomous system design. My long-term research goal is to develop intelligent robots that can infer and interact with the complex physical world.
+                My current research topics cover planning & control, assistive robotics, and general autonomous system design. My long-term research goal is to develop intelligent robots that can infer and interact with the complex physical world in long-horizon tasks.
               </tr>
         </tbody></table>
 
@@ -483,14 +499,22 @@
         <!-- ======= Credit Section ======= -->
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr>
+
             <td style="padding:0px">
-              <br>
-              <p style="text-align:left;font-size:13px;">
-                Modified version of template from <a style="font-size:13px ;" href="https://jonbarron.info/">here</a> 
+              <!-- <br> -->
+
+
+              <p style="text-align:left;font-size:14px;">
+                Modified version of template from <a style="font-size:14px ;" href="https://jonbarron.info/">here</a> 
                 <span style="float:right;">
-                  Last updated: 19 Jan 2023
+                  Last updated: 19 Feb 2023
                 </span>
               </p>
+
+              
+            </td>
+            <td style="padding:0px">
+              <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=2595ee&w=400&t=tt&d=SbX-eneKVZPoTFHMPxBZeG6kJ1lLUI1JJsAsiuBoZWQ&co=ffffff&ct=808080&cmo=3acc3a&cmn=ff5353'></script>
             </td>
           </tr>
         </tbody></table>

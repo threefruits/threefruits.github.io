@@ -45,7 +45,7 @@
             </td>
             <td style="padding:2.5%;width:67%;vertical-align:middle">
               <p >
-                I am a first-year Ph.D. student at National University of Singapore in <a href="https://www.comp.nus.edu.sg/cs/">Department of Computer Science</a>. My research interest lies in the intersection of Robotics, Reasoning and Decision Making with their applications in complex, real-world environments.
+                I am a first-year Ph.D. student in Computer Science at National University of Singapore, advised by <a href='https://www.comp.nus.edu.sg/~dyhsu/'>Prof. David Hsu</a>. My research interest lies in the intersection of Robotics, Reasoning and Decision Making with their applications in complex, real-world environments.
               </p>
               <p>
                 Previously, I worked as a Research Assistant with <a href='https://www.ee.cuhk.edu.hk/~qhmeng/about.html'>Prof. Max Q.-H. Meng </a>. Before that, I was a visiting student at UC Berkeley from Aug. 2019 to Sep. 2020 working with <a href='https://hybrid-robotics.berkeley.edu/koushil/'>Prof. Koushil Sreenath</a>. I received my B.E. in Automation from the Harbin Institute of Technology, Shenzhen in 2021.             
@@ -63,7 +63,6 @@
             </td>
           </tr>
         </tbody></table>
-        
 
         <hr class="hr-edge-weak">
 
@@ -113,7 +112,7 @@
                 Yanbo Chen, Zhengzhe Xu, Zhuozhu Jian, Gengpan Tang, Yunong Yangli, <strong>Anxing Xiao</strong>*, Xueqian Wang*, Bin Liang
               </p>
               <!-- <p style="margin:5px 0 5px 0px;font-size: 16px;"><em >In submission </em></p> -->
-              <p style="margin:5px 0 5px 0px;font-size: 16px;"><em >Accepted by ICRA</em>, 2023</p>
+              <p style="margin:5px 0 5px 0px;font-size: 16px;"><em >ICRA</em>, 2023</p>
               <a href="https://arxiv.org/abs/2203.03927">arXiv</a>
               /
               <a href="https://youtu.be/gd-RcYOqGuo">Video</a>
@@ -326,8 +325,134 @@
         <br>
 
         <hr class="hr-edge-weak">
-
+        <!-- ======= Course Projects Items Section ======= -->
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <br>
+          <heading style="padding:20px ;">Course Projects</heading>
+          <br>
+          <br>
+
+          <tr onmouseout="sonarmcl_stop()" onmouseover="sonarmcl_start()" >
+            <td style="padding:20px;width:30%;vertical-align:middle">
+              <div class="one">
+    
+                <div class="two" id='images/sonarmcl.png' style="width:100%; height:100%; max-width:100%">
+                    <img src='images/sonarmcl.png' style="width:100%; height:100%; max-width:100%">
+                </div>
+                
+                <img src='images/sonarmcl.gif' style="width:100%; height:100%; max-width:100%">
+                
+              </div>
+              <script type="text/javascript">
+                function sonarmcl_start() {
+                  document.getElementById('images/sonarmcl.png').style.opacity = "0";
+                }
+
+                function sonarmcl_stop() {
+                  document.getElementById('images/sonarmcl.png').style.opacity = "1";
+                }
+                sonarmcl_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:70%;vertical-align:middle">
+                <papertitle>Localisation For Underwater Vehicles Using a Forward-Looking Sonar</papertitle>
+              <p style="margin:5px 0 5px 0px;font-size:15px">
+                <em>NUS CS5340 Uncertainty Modelling in AI</em>
+              </p>
+              <!-- <p style="margin:5px 0 5px 0px;font-size: 16px;"><em >In submission </em></p> -->
+              <p style="margin:10px 0 5px 0px;font-size: 15px;">
+                Utilized Markov Random Fields (MRF) to denoise forward-looking sonar (FLS) images and Bayesian optimization to estimate the odometry;
+
+                Implemented the Monte Carlo Localisation algorithm for Autonomous Underwater Vehicles (AUVs) on data collected from AUVs operating in open water.               </p>
+
+            </td>
+          </tr>
+    
+          <tr onmouseout="reachavoid_stop()" onmouseover="reachavoid_start()" >
+            <td style="padding:20px;width:30%;vertical-align:middle">
+              <div class="one">
+    
+                <div class="two" id='images/reachavoid.png' style="width:100%; height:100%; max-width:100%">
+                    <img src='images/reachavoid.png' style="width:100%; height:100%; max-width:100%">
+                </div>
+                
+                <img src='images/reachavoid.gif' style="width:100%; height:100%; max-width:100%">
+                
+              </div>
+              <script type="text/javascript">
+                function reachavoid_start() {
+                  document.getElementById('images/reachavoid.png').style.opacity = "0";
+                }
+                function reachavoid_stop() {
+                  document.getElementById('images/reachavoid.png').style.opacity = "1";
+                }
+                reachavoid_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:70%;vertical-align:middle">
+                <papertitle>Reach-Avoid Games via Deep Reinforcement Learning</papertitle>
+
+              <p style="margin:5px 0 5px 0px;font-size:15px">
+                <em>HIT Auto2012 Introduction to Maching Learning</em>
+                
+                <p style="margin:10px 0 5px 0px;font-size: 15px;">
+                  Designed training pipelines to solve reach-avoid games using the Soft Actor Criticism (SAC) algorithm;
+                  The model was trained in Robotarium simulations and transferred to real-world experiments;
+                  Learned policy performed better than the baseline MPC method and human policy in both defense and attack tasks.                  
+                </p>
+
+
+
+            </td>
+          </tr>
+
+          <tr onmouseout="scanner_stop()" onmouseover="scanner_start()" >
+            <td style="padding:20px;width:30%;vertical-align:middle">
+              <div class="one">
+    
+                <div class="two" id='images/scanner.png' style="width:100%; height:100%; max-width:100%">
+                    <img src='images/scanner.png' style="width:100%; height:100%; max-width:100%">
+                </div>
+                
+                <img src='images/scanner.gif' style="width:100%; height:100%; max-width:100%">
+                
+              </div>
+              <script type="text/javascript">
+                function scanner_start() {
+                  document.getElementById('images/scanner.png').style.opacity = "0";
+                }
+                function scanner_stop() {
+                  document.getElementById('images/scanner.png').style.opacity = "1";
+                }
+                scanner_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:70%;vertical-align:middle">
+                <papertitle>Automatic notesbook scanner</papertitle>
+
+              <p style="margin:5px 0 5px 0px;font-size: 15px">
+                <em>Berkeley ME102B Mechatronics Design</em>
+              
+              <p style="margin:10px 0 5px 0px;font-size: 15px;">
+                Completed 3D model design in SolidWorks and manufactured parts of the scanner by 3D printing and laser cutting;
+                Integrated electronics components to achieve autonomous page turning and scanning;
+                Processed the scanner image with perspective transformation and adaptive threshold using OpenCV.
+                
+              </p>
+
+
+       
+            </td>
+          </tr>
+
+        </tbody></table>
+
+        <br>
+
+        <hr class="hr-edge-weak">
+        <!-- ======= Major Courses Section ======= -->
+
+        <!-- <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <br>
           <heading style="padding:20px ;">Major Courses</heading>
           <br>
@@ -340,7 +465,6 @@
 
             </td>
             <td style="padding:0px;width:80%;vertical-align:middle">
-              <!-- <heading>Major Courses</heading> -->
               
               Berkeley EE291E: Hybrid System and Intelligent Control (Prof. S. Shankar Sastry)</br>
               Berkeley ME232: Advanced Control Systems (Prof. Kameshwar Poolla)</br>
@@ -357,7 +481,6 @@
 
             </td>
             <td style="padding:0px;width:80%;vertical-align:middle">
-              <!-- <heading>Major Courses</heading> -->
               
               Berkeley EECS106B: Robotic Manipulation and Interaction (Prof. Ruzena Bajcsy, Prof. S. Shankar Sastry)</br>
               Berkeley ME102B: Mechatronics Design (Prof. Hannah Stuart)</br>
@@ -372,7 +495,6 @@
 
             </td>
             <td style="padding:0px;width:80%;vertical-align:middle">
-              <!-- <heading>Major Courses</heading> -->
               NUS CS6216: Graph Machine Learning (Prof. Xavier Bresson)</br>
               NUS CS5340: Probabilistic Graphical Models (Prof. Harold Soh)</br>
               Berkeley CS294: Geometry and Learning for 3D Vision (Prof. Yi Ma)</br>
@@ -387,7 +509,6 @@
 
             </td>
             <td style="padding:0px;width:80%;vertical-align:middle">
-              <!-- <heading>Major Courses</heading> -->
               Berkeley E231: Mathematical Methods in Eng. (Prof. Andrew Packard, Prof. Murat Arcak, Prof. Mark Mueller)</br>
               HIT MATH1009: Advanced Linear Algebra I, II (张贤科)</br>
               HIT MATH1010: Mathematical Analysis I, II, III (严质彬))</br>
@@ -395,31 +516,16 @@
               
             </td>
           </tr>
-            <!-- <h3 style="margin:10px 0 5px 0px;">Robotics:</h3>
-              Berkeley EECS106B: Robotic Manipulation and Interaction (Prof. Ruzena Bajcsy, Prof. S. Shankar Sastry)</br>
-              Berkeley ME102B: Mechatronics Design (Prof. Hannah Stuart)</br>
-              HIT AUTO2004: Design and Practice of Robotic System</br>        
-
-              <h3 style="margin:10px 0 5px 0px;">Artificial Intelligence:</h3>
-              NUS CS6216: Graph Machine Learning (Prof. Xavier Bresson)</br>
-              NUS CS5340: Probabilistic Graphical Models (Prof. Harold Soh)</br>
-              Berkeley CS294: Geometry and Learning for 3D Vision (Prof. Yi Ma)</br>
-              HIT AUTO2012: Introduction to Machine Learning
-
-              <h3 style="margin:10px 0 5px 0px;">Theoretical:</h3>
-              Berkeley E231: Mathematical Methods for Engineering (Prof. Andrew Packard, Prof. Murat Arcak, Prof. Mark Mueller)</br>
-              HIT MATH1009: Advanced Linear Algebra I, II (张贤科)</br>
-              HIT MATH1010: Mathematical Analysis I, II, III (严质彬))</br>
-              HIT EMEC1002: Theoretical Mechanics</br> -->
-          
           
 
         </tbody></table>
 
         <br>
 
-        <hr class="hr-edge-weak">
+        <hr class="hr-edge-weak"> -->
 
+
+        <!-- ======= Academic Service Section ======= -->
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr>
           <td style="padding:20px;width:100%;vertical-align:middle">
@@ -427,7 +533,7 @@
 
             <h3 style="margin:15px 0 5px 0px;">Journal Reviewer:</h3>
 
-            IEEE Robotics and Automation Letters (RA-L), 2022</br>
+            IEEE Robotics and Automation Letters (RA-L), 2022, 2023</br>
             IEEE Transactions on Robotics (T-RO), 2021</br>
             Biomimetic Intelligence and Robotics (BIROB), 2021</br>
 
@@ -450,6 +556,7 @@
 
         <hr class="hr-edge-weak">
 
+        <!-- ======= Misc Section ======= -->
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr>
           <td style="padding:20px;width:100%;vertical-align:middle">
@@ -507,7 +614,7 @@
               <p style="text-align:left;font-size:14px;">
                 Modified version of template from <a style="font-size:14px ;" href="https://jonbarron.info/">here</a> 
                 <span style="float:right;">
-                  Last updated: 19 Feb 2023
+                  Last updated: 11 May 2023
                 </span>
               </p>
 

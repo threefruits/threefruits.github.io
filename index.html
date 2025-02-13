@@ -87,15 +87,15 @@
           <h3>Anxing Xiao (肖岸星), Robotics Researcher &amp; Engineer</h3>
           <p >
             I am a Ph.D. student in Computer Science at the National University of Singapore, advised by <a href='https://www.comp.nus.edu.sg/~dyhsu/'>Prof. David Hsu</a>.
-            My research primarily focuses on designing autonomous systems that enable robots to adaptively perform assistive tasks in the dynamic and open human-centered environments.
+            My research primarily focuses on designing systems and algorithms for service robots to adaptively perform assistive tasks in the dynamic and open human-centered environments.
           </p>
           <p>
             <!-- I received my B.E. in Automation from the Harbin Institute of Technology, Shenzhen Campus. I used to work with <a href='https://www.ee.cuhk.edu.hk/~qhmeng/about.html'>Prof. Max Q.-H. Meng</a> as a research assistant after my graduation and <a href='https://hybrid-robotics.berkeley.edu/koushil/'>Prof. Koushil Sreenath</a> when I was a visiting student at UC Berkeley. -->
-            Previously, I worked with <a href='https://www.ee.cuhk.edu.hk/~qhmeng/about.html'>Prof. Max Q.-H. Meng</a> as a Research Assistant. I received my B.E. in Automation from the Harbin Institute of Technology, Shenzhen Campus in 2021. I was a visiting student at UC Berkeley, working with <a href='https://hybrid-robotics.berkeley.edu/koushil/'>Prof. Koushil Sreenath</a>.              
+            Previously, I worked with <a href='https://www.ee.cuhk.edu.hk/~qhmeng/about.html'>Prof. Max Q.-H. Meng</a> as a Research and Teaching Assistant. I received my B.E. in Automation from the Harbin Institute of Technology, Shenzhen Campus in 2021. I was a visiting exchangestudent at UC Berkeley, working with <a href='https://hybrid-robotics.berkeley.edu/koushil/'>Prof. Koushil Sreenath</a>.              
           </p>
           <p>
-            I love playing basketball 🏀 and table tennis 🏓 in my free time. I am also open to collaborating with people to explore the possibilities of robotics in various fields (e.g. HCI, IoT, Science).
-            Additionally, we always welcome undergraduate student who are interested and have strong experience in robotics to join our research projects at NUS or Tsinghua SIGS.          </p>
+            I love playing basketball 🏀 and table tennis 🏓 in my free time. I am also open to collaborating with people to explore the possibilities of robotics in various fields.
+            Additionally, we always welcome undergraduate student who are interested and have strong experience in robotics to join our research projects at NUS.          </p>
             <!-- Additionally, we always welcome undergraduate student who are interested and have strong experience in robotics to <a href="https://forms.office.com/r/WAEn4NA0Kj">join our research projects</a> at NUS or Tsinghua SIGS</a>.          </p> -->
             <p style="text-align:center">
             <a href="assets/doc/CV_AnxingXiao.pdf">CV</a> &nbsp&nbsp/&nbsp&nbsp
@@ -171,7 +171,7 @@
         <ul>
           <h3 style="margin:15px 0 5px 0px;">Journal Reviewer:</h3>
           <li>IEEE Transactions on Robotics (TRO), 2021, 2024</li>
-          <li>IEEE Robotics and Automation Letters (RAL), 2022, 2023, 2024</li>
+          <li>IEEE Robotics and Automation Letters (RAL), 2022, 2023, 2024, 2025</li>
           <li>IEEE Transactions on Automation Science and Engineering (TASE), 2024</li>
           <li>IEEE Transactions on Industrial Electronics (TIE), 2024</li>
           <li>Advanced Robotics, 2024</li>
@@ -193,6 +193,418 @@
 
   </section><!-- End About Section -->
 
+
+
+  <!-- ======= Research Section ======= -->
+  <section id="research" class="services">
+    <div id = 'research_container' class="container">
+
+      <div class="section-title">
+        <h2>Research</h2>
+      </div>
+
+      <h4 class="">
+        My research interests span general purpose robotic algorithms and specialised robotic systems, including semantic reasoning, planning, human-robot interaction, and service robots design. I aim to narrow the gap between robotics research and its applications in socially-aware scenarios. My long-term research goal is to advance the capability of household robotic assistants to adapt to unforeseen objects and tasks in diverse human-centric environments. Currently, I am focusing on developing open-world planning and interaction capabilities for service robots in daily-life assistive tasks.
+      </h4>
+
+      <br>
+
+      <div class="row">
+        <!--Reasoning and Planning, Service Robots, Robot Navigation,  -->
+        <div class="col-lg-4 d-flex align-items-stretch mt-4 mt-md-0">
+          <a href="#reasoning">
+          <div class="icon-box">
+            <!-- <div class="icon"><i class="bx bx-file"></i></div> -->
+            <h4>Open-world Planning and Interaction</h4>
+            <p>Develop algorithms and systems for service robots to interact with the open world.</p>
+          </div>
+        </a>
+        </div>
+
+        <div class="col-lg-4 d-flex align-items-stretch mt-4 mt-md-0">
+          <a href="#servicerobots">
+          <div class="icon-box">
+            <!-- <div class="icon"><i class="bx bx-file"></i></div> -->
+            <h4>Socially-Aware Service Robots</h4>
+            <p>Autonomous service robots that can perform useful socially-aware applications for humans.
+              </p>
+          </div>
+        </a>
+        </div>
+
+      
+        <div class="col-lg-4 d-flex align-items-stretch mt-4 mt-md-0" >
+          <a href="#navigation">
+          <div class="icon-box">
+            <!-- <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt=""> -->
+            <!-- <div class="icon"><i class="bx bxl-dribbble"></i></div> -->
+            <h4>Navigation in the Wild</h4>
+            <p>Enable service robots with complex navigation skills in unstructured environments. </p>
+          </div>
+        </a>
+        </div>
+
+
+
+      </div>
+
+
+    </div>
+    
+    <div id='reasoning' class="container">
+      <br>
+      <div >
+        <h3>Open-world Planning & Interaction</h3>
+      </div>
+      <p></p><p></p> <br>
+
+      
+      <div class="row">
+        <div class="col-lg-4 pt-lg-2">
+        <!--<div class="col-lg-4" data-aos="fade-right">-->
+          <img src="assets/img/demo/robibutler.png" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-8 pt-4 pt-lg-0 content">
+        <!--<div class="col-lg-8 pt-4 pt-lg-1 content" data-aos="fade-left">-->
+          <h4>Robi Butler: Remote Multimodal Interactions with Household Robot Assistant</h4>
+          <p class="font-italic">
+            <strong>
+              <font size="4pt" color="grey">First Author | Accepted to ICRA 2025</font>
+            </strong>
+            <br>
+            <font size="4pt" > 
+              We introduce Robi Butler, a novel household robotic system that enables multimodal interactions with remote users. Building on the advanced communication interfaces, Robi Butler allows users to monitor the robot's status, send text or voice instructions, and select target objects by hand pointing. At the core of our system is a high-level behavior module, powered by Large Language Models (LLMs), that interprets multimodal instructions to generate action plans. These plans are composed of a set of open vocabulary primitives supported by Vision Language Models (VLMs) that handle both text and pointing queries. The integration of the above components allows Robi Butler to ground remote multimodal instructions in the real-world home environment in a zero-shot manner. 
+                            <br>
+            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2409.20548" target="_blank">Paper</a>
+            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://youtu.be/kz6P3ui-s3I?si=oXWV54YuRMzCRsQL" target="_blank">Video</a>
+            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://robibutler.github.io/" target="_blank">Website</a>
+            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="" target="_blank">Code (Coming Soon)</a>
+          </p>
+
+        </div>
+      </div>
+
+      <p></p> <br>
+      <div class="row">
+        <div class="col-lg-4 pt-lg-2">
+        <!--<div class="col-lg-4" data-aos="fade-right">-->
+          <img src="assets/img/demo/octopi_demo.gif" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-8 pt-4 pt-lg-0 content">
+        <!--<div class="col-lg-8 pt-4 pt-lg-1 content" data-aos="fade-left">-->
+          <h4>Octopi: Object Property Reasoning with Large Tactile-Language Models </h4>
+          <p class="font-italic">
+            <strong>
+              <font size="4pt" color="grey">Collaboration | RSS 2024 </font>
+            </strong>
+            <br>
+            <font size="4pt" > 
+              In this work, we investigate combining tactile perception with language, which enables embodied systems to obtain physical properties through interaction and apply common-sense reasoning. We contribute a new dataset PHYSICLEAR, which comprises both physical/property reasoning tasks and annotated tactile videos obtained using a GelSight tactile sensor. We then introduce OCTOPI, a system that leverages both tactile representation learning and large vision-language models to predict and reason about tactile inputs with minimal language fine-tuning. Our evaluations on PHYSICLEAR show that OCTOPI is able to effectively use intermediate physical property predictions to improve physical reasoning in both trained tasks and for zero-shot reasoning. 
+              <br>
+            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/2405.02794" target="_blank">Paper</a>
+            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://octopi-tactile-lvlm.github.io/" target="_blank">Website</a>
+            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/clear-nus/octopi" target="_blank">Code</a>
+          </p>
+        </div>
+      </div>
+
+      <p></p> <br>
+      <div class="row">
+        <div class="col-lg-4 pt-lg-2">
+        <!--<div class="col-lg-4" data-aos="fade-right">-->
+          <img src="assets/img/demo/llmstate.gif" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-8 pt-4 pt-lg-0 content">
+        <!--<div class="col-lg-8 pt-4 pt-lg-1 content" data-aos="fade-left">-->
+          <h4>LLM-State: Expandable State Representation for Long-horizon Task Planning in the Open World </h4>
+          <p class="font-italic">
+            <strong>
+              <font size="4pt" color="grey">Collaboration | Preprint </font>
+            </strong>
+            <br>
+            <font size="4pt" > 
+              We propose a novel, expandable state representation that provides continuous expansion and updating of object attributes from the Language Model's inherent capabilities for context understanding and historical action reasoning. Our proposed representation maintains a comprehensive record of an object's attributes and changes, enabling robust retrospective summary of the sequence of actions leading to the current state. We validate our model through experiments across simulated and real-world task planning scenarios, demonstrating significant improvements over baseline methods in a variety of tasks requiring long-horizon state tracking and reasoning.             <br>
+            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/2311.17406" target="_blank">Paper</a>
+            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.youtube.com/watch?v=QkN-8pxV3Mo" target="_blank">Video</a>
+          </p>
+
+        </div>
+      </div>
+
+    </div>
+    
+    <div id='servicerobots' class="container">
+      <br>
+      <div >
+        <h3>Socially-Aware Service Robots</h3>
+      </div>
+
+      <p></p><p></p> <br>
+
+      <div class="row">
+        <div class="col-lg-4 pt-lg-2">
+        <!--<div class="col-lg-4" data-aos="fade-right">-->
+          <img src="assets/img/demo/trolley_trans.gif" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-8 pt-4 pt-lg-0 content">
+        <!--<div class="col-lg-8 pt-4 pt-lg-1 content" data-aos="fade-left">-->
+          <h4>Collaborative Trolley Transportation System with Autonomous Nonholonomic Robots </h4>
+          <p class="font-italic">
+            <strong>
+              <font size="4pt" color="grey">Research Mentor | IROS 2023</font>
+            </strong>
+            <br>
+            <font size="4pt" > 
+              This paper presents an autonomous nonholonomic multi-robot system and a hierarchical autonomy framework for collaborative luggage trolley transportation. This framework finds kinematic-feasible paths, computes online motion plans, and provides feedback that enables the multi-robot system to handle long lines of luggage trolleys and navigate obstacles and pedestrians while dealing with multiple inherently complex and coupled constraints. We demonstrate the designed collaborative trolley transportation system through practical transportation tasks in complex and dynamic environments.
+              <br>
+            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2303.06624" target="_blank">Paper</a>
+            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.youtube.com/watch?v=efnPERm0Rco&feature=youtu.be" target="_blank">Video</a>
+          </p>
+
+        </div>
+      </div>
+
+      <p></p> <br>
+      <!-- <p></p><p></p> <br> -->
+
+      <div class="row">
+        <div class="col-lg-4 pt-lg-2">
+        <!--<div class="col-lg-4" data-aos="fade-right">-->
+          <img src="assets/img/demo/guidedog2.gif" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-8 pt-4 pt-lg-0 content">
+        <!--<div class="col-lg-8 pt-4 pt-lg-1 content" data-aos="fade-left">-->
+          <h4>Quadruped Guidance Robot for the Visually Impaired: A Comfort-Based Approach</h4>
+          <p class="font-italic">
+            <strong>
+              <font size="4pt" color="grey">Research Mentor | ICRA 2023</font>
+            </strong>
+            <br>
+            <font size="4pt" > We propose a novel guidance robot system with a comfort-based concept. 
+              To allow humans to be guided safely and more comfortably to the target position in complex environments, our proposed force planner can plan the forces experienced by the human with the force-based human motion model. And the proposed motion planner generate the specific motion command for robot and controllable leash to track the planned force.
+              Our system has been deployed on Unitree Laikago quadrupedal platform and validated in real-world scenarios. </font>
+            <br>
+            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2203.03927" target="_blank">Paper</a>
+            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.youtube.com/watch?v=Xroov-UASC0" target="_blank">Video</a>
+          </p>
+        </div>
+      </div>
+
+      <p></p> <br>
+
+
+
+      <div class="row">
+        <div class="col-lg-4 pt-lg-2">
+        <!--<div class="col-lg-4" data-aos="fade-right">-->
+          <img src="assets/img/demo/trolley_collect.gif" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-8 pt-4 pt-lg-0 content">
+        <!--<div class="col-lg-8 pt-4 pt-lg-1 content" data-aos="fade-left">-->
+          <h4>Robotic Autonomous Trolley Collection with Progressive Perception and Nonlinear Model Predictive Control</h4>
+          <p class="font-italic">
+            <strong>
+              <font size="4pt" color="grey">First Author | ICRA 2022</font>
+            </strong>
+            <br>
+            <font size="4pt" > We propose a novel mobile manipulation system with applications in luggage trolley collection. 
+              The proposed system integrates a compact hardware design and a progressive perception stragy and MPC-based planning framework, enabling the system to efficiently and robustly collect trolleys in dynamic and complex environments.
+              We demonstrate our design and framework by deploying the system on actual trolley collection tasks, and their effectiveness and robustness are experimentally validated. </font>
+            <br>
+            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2110.06648" target="_blank">Paper</a>
+            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.youtube.com/watch?v=6SwjgGvRtno" target="_blank">Video</a>
+          </p>
+
+        </div>
+      </div>
+
+      <p></p> <br>
+
+      <div class="row">
+        <div class="col-lg-4 pt-lg-2">
+        <!--<div class="col-lg-4" data-aos="fade-right">-->
+          <img src="assets/img/demo/guidedog1.gif" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-8 pt-4 pt-lg-0 content">
+        <!--<div class="col-lg-8 pt-4 pt-lg-1 content" data-aos="fade-left">-->
+          <h4>Robotic Guide Dog: Leading a Human with Leash-Guided Hybrid Physical Interactions</h4>
+          <p class="font-italic">
+            <strong>
+              <font size="4pt" color="grey">First Author | ICRA 2021</font>
+            </strong>
+            <br>
+             <font size="4pt" >We propose a hybrid physical Human-Robot Interaction model that involves leash tension to describe the dynamical relationship in the robot-guiding human system. This hybrid model is utilized in a mixed-integer programming problem to develop a reactive planner that is able to utilize slack-taut switching to guide a blind-folded person to safely travel in a confined space.
+              The proposed leash-guided robot framework is deployed on a Mini Cheetah quadrupedal robot and validated in experiments.
+             </font>
+            <br>
+            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2103.14300" target="_blank">Paper</a>
+            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.youtube.com/watch?v=FySXRzmji8Y&t=11s" target="_blank">Video</a>
+          </p>
+
+        </div>
+      </div>
+
+ 
+
+    </div>
+
+
+
+
+    <div id='navigation' class="container">
+      <br>
+      <div >
+        <h3>Navigation in the Wild</h3>
+      </div>
+
+      <p></p><p></p> <br>
+
+      <div class="row">
+        <div class="col-lg-4 pt-lg-2">
+        <!--<div class="col-lg-4" data-aos="fade-right">-->
+          <img src="assets/img/demo/gson.gif" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-8 pt-4 pt-lg-0 content">
+        <!--<div class="col-lg-8 pt-4 pt-lg-1 content" data-aos="fade-left">-->
+          <h4>GSON: A Group-based Social Navigation Framework with Large Multimodal Model</h4>
+          <p class="font-italic">
+            <strong>
+              <font size="4pt" color="grey">Research Mentor | In Submission</font>
+            </strong>
+            <br>
+            <font size="4pt" > In this paper, we present a group-based social navigation framework GSON to enable mobile robots to perceive and exploit the social group of their surroundings by leveling the visual reasoning capability of the Large Multimodal Model (LMM). For perception, we apply visual prompting techniques to zero-shot extract the social relationship among pedestrians and combine the result with a robust pedestrian detection and tracking pipeline to alleviate the problem of low inference speed of the LMM. Given the perception result, the planning system is designed to avoid disrupting the current social structure. We adopt a social structure-based mid-level planner as a bridge between global path planning and local motion planning to preserve the global context and reactive response. 
+            </font>
+            <br>
+            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/2409.18084" target="_blank">Paper</a>
+            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.youtube.com/watch?v=S_o-hvIBg5M" target="_blank">Video</a>
+
+          </p>
+
+        </div>
+      </div>
+
+      <p></p> <br>
+
+      <div class="row">
+        <div class="col-lg-4 pt-lg-2">
+        <!--<div class="col-lg-4" data-aos="fade-right">-->
+          <img src="assets/img/demo/navigation.gif" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-8 pt-4 pt-lg-0 content">
+        <!--<div class="col-lg-8 pt-4 pt-lg-1 content" data-aos="fade-left">-->
+          <h4>PUTN: A Plane-fitting based Uneven Terrain Navigation Framework</h4>
+          <p class="font-italic">
+            <strong>
+              <font size="4pt" color="grey">Research Mentor | IROS 2022</font>
+            </strong>
+            <br>
+            <font size="4pt" > We proposed a plane-fitting based uneven terrain navigation framework(PUTN) which is designed for effectively navigating on uneven terrain. 
+              A new terrain assessment with plane-fitting to evaluate the traversability of the terrain is proposed.
+              Combined with the informed-RRT* and this terrain assessment method, a new planning algorithm, PF-RRT*, is proposed. By using Gaussian Process, the traversability of the dense path is generated given the sample tree generated by PF-RRT*.
+              The results verify the advantages of the PF-RRT* algorithm and the practicability of PUTN.</font>
+            <br>
+            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2203.04541" target="_blank">Paper</a>
+            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.youtube.com/watch?v=3ZK-Ut29hLI" target="_blank">Video</a>
+            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/jianzhuozhuTHU/putn" target="_blank">Code</a>
+
+          </p>
+
+        </div>
+      </div>
+
+      <p></p> <br>
+
+      <div class="row">
+        <div class="col-lg-4 pt-lg-2">
+        <!--<div class="col-lg-4" data-aos="fade-right">-->
+          <img src="assets/img/demo/jump.gif" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-8 pt-4 pt-lg-0 content">
+        <!--<div class="col-lg-8 pt-4 pt-lg-1 content" data-aos="fade-left">-->
+          <h4>Autonomous Navigation with Optimized Jumping through Constrained Obstacles on Quadrupeds</h4>
+          <p class="font-italic">
+            <strong>
+              <font size="4pt" color="grey">Collaboration | CASE 2021</font>
+            </strong>
+            <br>
+            <font size="4pt" >
+              We developed an end-to-end framework that enabled multi-modal transitions between walking and jumping skills. 
+              Using multi-phased collocation based nonlinear optimization, optimal trajectories were generated for the quadrupedal robot while avoiding obstacles and allowing the robot to jump through window-shaped obstacles. 
+              An integrated state machine, path planner, and jumping and walking controllers enabled the Mini-Cheetah to jump over obstacles and navigate previously nontraversable areas.</font>
+            <br>
+            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2107.00773" target="_blank">Paper</a>
+            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.youtube.com/watch?v=5pzJ8U7YyGc" target="_blank">Video</a>
+          </p>
+
+        </div>
+      </div>
+
+      <p></p> <br>
+
+      <div class="row">
+        <div class="col-lg-4 pt-lg-2">
+        <!--<div class="col-lg-4" data-aos="fade-right">-->
+          <img src="assets/img/demo/amphi.gif" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-8 pt-4 pt-lg-0 content">
+        <!--<div class="col-lg-8 pt-4 pt-lg-1 content" data-aos="fade-left">-->
+          <h4>Hexapod Robotic’s Trajectory Tracking with DNN-Based Nonlinear Model Predictive Control</h4>
+          <p class="font-italic">
+            <strong>
+              <font size="4pt" color="grey"> Collaboration | AIM 2021 </font>
+            </strong>
+            <br>
+            <font size="4pt" >We first contribute a well design deep neural network (DNN) as a precise black-box kinematic model of the amphibious robot. Then, we design a DNN based nonlinear model predictive controller which obtains the robot’s real-time moving command by iterative optimization. The simulation results indicate the proposed controller is superior to the basic controller in the robot’s tracking efficiency and accuracy.</font>
+            <br>
+            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://ieeexplore.ieee.org/document/9159003" target="_blank">Paper</a>
+            <!-- <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.youtube.com/watch?v=FySXRzmji8Y&t=11s" target="_blank">Video</a> -->
+          </p>
+          </p>
+        </div>
+      </div>
+
+
+
+    </div>
+
+
+
+
+    <!-- <div class="container">
+
+      <div class="section-title">
+        <h2>Invited Talks</h2>
+      </div>
+
+
+    </div> -->
+
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Media</h2>
+      </div>
+
+      <div class="row">
+
+        <div class="col-lg-12 pt-2 pt-lg-0 content">
+          <h2>Robotic Guide Dog [Apr. 2021]</h2>
+          <ul>
+          <!-- <li><i class="icofont-rounded"></i>03/2022: I receive the UBC Four Year Doctoral Fellowship.</li> -->
+          <li><i class="icofont-rounded"></i><a href= "https://techxplore.com/news/2021-04-robotic-dog-individuals.html" target="_blank">Tech Xplore</a> </li>
+          <li><i class="icofont-rounded"></i><a href= "https://mp.weixin.qq.com/s/U0c1rOuDCF3dgkoG0zMx9Q" target="_blank">MIT Technology Review Chinese (DeepTech)</a></li>
+          <li><i class="icofont-rounded"></i><a href= "https://www.newscientist.com/article/2273390-robot-guide-dog-could-help-people-who-are-blind-navigate/" target="_blank"> New Scientist</a></li>
+          <li><i class="icofont-rounded"></i><a href= "https://www.dailymail.co.uk/sciencetech/article-9441691/Robots-Scientists-develop-four-legged-guide-dog-bot-lead-blind-people-obstacles.html" target="_blank">Daily Mail</a> </li>
+          <li><i class="icofont-rounded"></i><a href= "https://theindependent.sg/robotic-dog-to-guide-the-blind-and-visually-impaired/" target="_blank">The Independent</a> </li>
+          <li><i class="icofont-rounded"></i><a href= "https://techxplore.com/news/2021-04-laser-equipped-robotic-dog-people.html" target="_blank">Tech Xplore</a> </li>
+          <li><i class="icofont-rounded"></i><a href= "https://www.dailycal.org/2021/04/12/uc-berkeley-researchers-create-robotic-guide-dog-for-visually-impaired-people/" target="_blank">Daily Californian</a> </li>
+          </ul>
+        </div>
+      </div>
+
+    </div><!-- End Skills -->
+
+  </section> 
 
 
   <!-- ======= Services Section ======= -->
@@ -429,419 +841,6 @@
         <p>&nbsp;</p>
       </div>
   </section><!-- End Services Section -->
-
-  <!-- ======= Services Section ======= -->
-  <section id="research" class="services">
-    <div id = 'research_container' class="container">
-
-      <div class="section-title">
-        <h2>Research</h2>
-      </div>
-
-      <h4 class="">
-        My research interests span general purpose robotic algorithms and specialised robotic systems, including semantic reasoning, motion planning, human-robot interaction, and service robots design. I aim to narrow the gap between robotics research and its applications in socially-aware scenarios. My long-term research goal is to advance the capability of household robotic assistants to adapt to unforeseen objects and tasks in diverse human-centric environments. Currently, I am focusing on developing open-world reasoning and planning capabilities for mobile manipulation in daily-life assistive tasks.
-      </h4>
-
-      <br>
-
-      <div class="row">
-        <!--Reasoning and Planning, Service Robots, Robot Navigation,  -->
-        <div class="col-lg-4 d-flex align-items-stretch mt-4 mt-md-0">
-          <a href="#reasoning">
-          <div class="icon-box">
-            <!-- <div class="icon"><i class="bx bx-file"></i></div> -->
-            <h4>Open-world Reasoning & Planning</h4>
-            <p>Develop algorithms and systems for robot to interact with the open world.</p>
-          </div>
-        </a>
-        </div>
-
-        <div class="col-lg-4 d-flex align-items-stretch mt-4 mt-md-0">
-          <a href="#servicerobots">
-          <div class="icon-box">
-            <!-- <div class="icon"><i class="bx bx-file"></i></div> -->
-            <h4>Intelligent Service Robots</h4>
-            <p>Autonomous robotic systems that can perform useful socially-aware tasks for humans.
-              </p>
-          </div>
-        </a>
-        </div>
-
-      
-        <div class="col-lg-4 d-flex align-items-stretch mt-4 mt-md-0" >
-          <a href="#navigation">
-          <div class="icon-box">
-            <!-- <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt=""> -->
-            <!-- <div class="icon"><i class="bx bxl-dribbble"></i></div> -->
-            <h4>Robot Navigation in the Wild</h4>
-            <p>Enable mobile robots with complex navigation skills in unstructured environments. </p>
-          </div>
-        </a>
-        </div>
-
-
-
-      </div>
-
-
-    </div>
-    
-    <div id='reasoning' class="container">
-      <br>
-      <div >
-        <h3>Open-world Reasoning & Planning</h3>
-      </div>
-      <p></p><p></p> <br>
-
-      
-      <div class="row">
-        <div class="col-lg-4 pt-lg-2">
-        <!--<div class="col-lg-4" data-aos="fade-right">-->
-          <img src="assets/img/demo/robibutler.png" class="img-fluid" alt="">
-        </div>
-        <div class="col-lg-8 pt-4 pt-lg-0 content">
-        <!--<div class="col-lg-8 pt-4 pt-lg-1 content" data-aos="fade-left">-->
-          <h4>Robi Butler: Remote Multimodal Interactions with Household Robot Assistant</h4>
-          <p class="font-italic">
-            <strong>
-              <font size="4pt" color="grey">First Author | Accepted to ICRA 2025</font>
-            </strong>
-            <br>
-            <font size="4pt" > 
-              We introduce Robi Butler, a novel household robotic system that enables multimodal interactions with remote users. Building on the advanced communication interfaces, Robi Butler allows users to monitor the robot's status, send text or voice instructions, and select target objects by hand pointing. At the core of our system is a high-level behavior module, powered by Large Language Models (LLMs), that interprets multimodal instructions to generate action plans. These plans are composed of a set of open vocabulary primitives supported by Vision Language Models (VLMs) that handle both text and pointing queries. The integration of the above components allows Robi Butler to ground remote multimodal instructions in the real-world home environment in a zero-shot manner. 
-                            <br>
-            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2409.20548" target="_blank">Paper</a>
-            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://youtu.be/kz6P3ui-s3I?si=oXWV54YuRMzCRsQL" target="_blank">Video</a>
-            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://robibutler.github.io/" target="_blank">Website</a>
-            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="" target="_blank">Code (Coming Soon)</a>
-          </p>
-
-        </div>
-      </div>
-
-      <p></p> <br>
-      <div class="row">
-        <div class="col-lg-4 pt-lg-2">
-        <!--<div class="col-lg-4" data-aos="fade-right">-->
-          <img src="assets/img/demo/octopi_demo.gif" class="img-fluid" alt="">
-        </div>
-        <div class="col-lg-8 pt-4 pt-lg-0 content">
-        <!--<div class="col-lg-8 pt-4 pt-lg-1 content" data-aos="fade-left">-->
-          <h4>Octopi: Object Property Reasoning with Large Tactile-Language Models </h4>
-          <p class="font-italic">
-            <strong>
-              <font size="4pt" color="grey">Collaboration | RSS 2024 </font>
-            </strong>
-            <br>
-            <font size="4pt" > 
-              In this work, we investigate combining tactile perception with language, which enables embodied systems to obtain physical properties through interaction and apply common-sense reasoning. We contribute a new dataset PHYSICLEAR, which comprises both physical/property reasoning tasks and annotated tactile videos obtained using a GelSight tactile sensor. We then introduce OCTOPI, a system that leverages both tactile representation learning and large vision-language models to predict and reason about tactile inputs with minimal language fine-tuning. Our evaluations on PHYSICLEAR show that OCTOPI is able to effectively use intermediate physical property predictions to improve physical reasoning in both trained tasks and for zero-shot reasoning. 
-              <br>
-            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/2405.02794" target="_blank">Paper</a>
-            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://octopi-tactile-lvlm.github.io/" target="_blank">Website</a>
-            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/clear-nus/octopi" target="_blank">Code</a>
-          </p>
-        </div>
-      </div>
-
-      <p></p> <br>
-      <div class="row">
-        <div class="col-lg-4 pt-lg-2">
-        <!--<div class="col-lg-4" data-aos="fade-right">-->
-          <img src="assets/img/demo/llmstate.gif" class="img-fluid" alt="">
-        </div>
-        <div class="col-lg-8 pt-4 pt-lg-0 content">
-        <!--<div class="col-lg-8 pt-4 pt-lg-1 content" data-aos="fade-left">-->
-          <h4>LLM-State: Expandable State Representation for Long-horizon Task Planning in the Open World </h4>
-          <p class="font-italic">
-            <strong>
-              <font size="4pt" color="grey">Collaboration | Preprint </font>
-            </strong>
-            <br>
-            <font size="4pt" > 
-              We propose a novel, expandable state representation that provides continuous expansion and updating of object attributes from the Language Model's inherent capabilities for context understanding and historical action reasoning. Our proposed representation maintains a comprehensive record of an object's attributes and changes, enabling robust retrospective summary of the sequence of actions leading to the current state. We validate our model through experiments across simulated and real-world task planning scenarios, demonstrating significant improvements over baseline methods in a variety of tasks requiring long-horizon state tracking and reasoning.             <br>
-            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/2311.17406" target="_blank">Paper</a>
-            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.youtube.com/watch?v=QkN-8pxV3Mo" target="_blank">Video</a>
-          </p>
-
-        </div>
-      </div>
-
-    </div>
-    
-    <div id='servicerobots' class="container">
-      <br>
-      <div >
-        <h3>Intelligent Service Robots</h3>
-      </div>
-
-      <p></p><p></p> <br>
-
-      <div class="row">
-        <div class="col-lg-4 pt-lg-2">
-        <!--<div class="col-lg-4" data-aos="fade-right">-->
-          <img src="assets/img/demo/trolley_trans.gif" class="img-fluid" alt="">
-        </div>
-        <div class="col-lg-8 pt-4 pt-lg-0 content">
-        <!--<div class="col-lg-8 pt-4 pt-lg-1 content" data-aos="fade-left">-->
-          <h4>Collaborative Trolley Transportation System with Autonomous Nonholonomic Robots </h4>
-          <p class="font-italic">
-            <strong>
-              <font size="4pt" color="grey">Research Mentor | IROS 2023</font>
-            </strong>
-            <br>
-            <font size="4pt" > 
-              This paper presents an autonomous nonholonomic multi-robot system and a hierarchical autonomy framework for collaborative luggage trolley transportation. This framework finds kinematic-feasible paths, computes online motion plans, and provides feedback that enables the multi-robot system to handle long lines of luggage trolleys and navigate obstacles and pedestrians while dealing with multiple inherently complex and coupled constraints. We demonstrate the designed collaborative trolley transportation system through practical transportation tasks in complex and dynamic environments.
-              <br>
-            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2303.06624" target="_blank">Paper</a>
-            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.youtube.com/watch?v=efnPERm0Rco&feature=youtu.be" target="_blank">Video</a>
-          </p>
-
-        </div>
-      </div>
-
-      <p></p> <br>
-      <!-- <p></p><p></p> <br> -->
-
-      <div class="row">
-        <div class="col-lg-4 pt-lg-2">
-        <!--<div class="col-lg-4" data-aos="fade-right">-->
-          <img src="assets/img/demo/guidedog2.gif" class="img-fluid" alt="">
-        </div>
-        <div class="col-lg-8 pt-4 pt-lg-0 content">
-        <!--<div class="col-lg-8 pt-4 pt-lg-1 content" data-aos="fade-left">-->
-          <h4>Quadruped Guidance Robot for the Visually Impaired: A Comfort-Based Approach</h4>
-          <p class="font-italic">
-            <strong>
-              <font size="4pt" color="grey">Research Mentor | ICRA 2023</font>
-            </strong>
-            <br>
-            <font size="4pt" > We propose a novel guidance robot system with a comfort-based concept. 
-              To allow humans to be guided safely and more comfortably to the target position in complex environments, our proposed force planner can plan the forces experienced by the human with the force-based human motion model. And the proposed motion planner generate the specific motion command for robot and controllable leash to track the planned force.
-              Our system has been deployed on Unitree Laikago quadrupedal platform and validated in real-world scenarios. </font>
-            <br>
-            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2203.03927" target="_blank">Paper</a>
-            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.youtube.com/watch?v=Xroov-UASC0" target="_blank">Video</a>
-          </p>
-        </div>
-      </div>
-
-      <p></p> <br>
-
-
-
-      <div class="row">
-        <div class="col-lg-4 pt-lg-2">
-        <!--<div class="col-lg-4" data-aos="fade-right">-->
-          <img src="assets/img/demo/trolley_collect.gif" class="img-fluid" alt="">
-        </div>
-        <div class="col-lg-8 pt-4 pt-lg-0 content">
-        <!--<div class="col-lg-8 pt-4 pt-lg-1 content" data-aos="fade-left">-->
-          <h4>Robotic Autonomous Trolley Collection with Progressive Perception and Nonlinear Model Predictive Control</h4>
-          <p class="font-italic">
-            <strong>
-              <font size="4pt" color="grey">First Author | ICRA 2022</font>
-            </strong>
-            <br>
-            <font size="4pt" > We propose a novel mobile manipulation system with applications in luggage trolley collection. 
-              The proposed system integrates a compact hardware design and a progressive perception stragy and MPC-based planning framework, enabling the system to efficiently and robustly collect trolleys in dynamic and complex environments.
-              We demonstrate our design and framework by deploying the system on actual trolley collection tasks, and their effectiveness and robustness are experimentally validated. </font>
-            <br>
-            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2110.06648" target="_blank">Paper</a>
-            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.youtube.com/watch?v=6SwjgGvRtno" target="_blank">Video</a>
-          </p>
-
-        </div>
-      </div>
-
-      <p></p> <br>
-
-      <div class="row">
-        <div class="col-lg-4 pt-lg-2">
-        <!--<div class="col-lg-4" data-aos="fade-right">-->
-          <img src="assets/img/demo/guidedog1.gif" class="img-fluid" alt="">
-        </div>
-        <div class="col-lg-8 pt-4 pt-lg-0 content">
-        <!--<div class="col-lg-8 pt-4 pt-lg-1 content" data-aos="fade-left">-->
-          <h4>Robotic Guide Dog: Leading a Human with Leash-Guided Hybrid Physical Interactions</h4>
-          <p class="font-italic">
-            <strong>
-              <font size="4pt" color="grey">First Author | ICRA 2021</font>
-            </strong>
-            <br>
-             <font size="4pt" >We propose a hybrid physical Human-Robot Interaction model that involves leash tension to describe the dynamical relationship in the robot-guiding human system. This hybrid model is utilized in a mixed-integer programming problem to develop a reactive planner that is able to utilize slack-taut switching to guide a blind-folded person to safely travel in a confined space.
-              The proposed leash-guided robot framework is deployed on a Mini Cheetah quadrupedal robot and validated in experiments.
-             </font>
-            <br>
-            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2103.14300" target="_blank">Paper</a>
-            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.youtube.com/watch?v=FySXRzmji8Y&t=11s" target="_blank">Video</a>
-          </p>
-
-        </div>
-      </div>
-
- 
-
-    </div>
-
-
-
-
-    <div id='navigation' class="container">
-      <br>
-      <div >
-        <h3>Robot Navigation in the Wild</h3>
-      </div>
-
-      <p></p><p></p> <br>
-
-      <div class="row">
-        <div class="col-lg-4 pt-lg-2">
-        <!--<div class="col-lg-4" data-aos="fade-right">-->
-          <img src="assets/img/demo/gson.gif" class="img-fluid" alt="">
-        </div>
-        <div class="col-lg-8 pt-4 pt-lg-0 content">
-        <!--<div class="col-lg-8 pt-4 pt-lg-1 content" data-aos="fade-left">-->
-          <h4>GSON: A Group-based Social Navigation Framework with Large Multimodal Model</h4>
-          <p class="font-italic">
-            <strong>
-              <font size="4pt" color="grey">Research Mentor | In Submission</font>
-            </strong>
-            <br>
-            <font size="4pt" > In this paper, we present a group-based social navigation framework GSON to enable mobile robots to perceive and exploit the social group of their surroundings by leveling the visual reasoning capability of the Large Multimodal Model (LMM). For perception, we apply visual prompting techniques to zero-shot extract the social relationship among pedestrians and combine the result with a robust pedestrian detection and tracking pipeline to alleviate the problem of low inference speed of the LMM. Given the perception result, the planning system is designed to avoid disrupting the current social structure. We adopt a social structure-based mid-level planner as a bridge between global path planning and local motion planning to preserve the global context and reactive response. 
-            </font>
-            <br>
-            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/2409.18084" target="_blank">Paper</a>
-            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.youtube.com/watch?v=S_o-hvIBg5M" target="_blank">Video</a>
-
-          </p>
-
-        </div>
-      </div>
-
-      <p></p> <br>
-
-      <div class="row">
-        <div class="col-lg-4 pt-lg-2">
-        <!--<div class="col-lg-4" data-aos="fade-right">-->
-          <img src="assets/img/demo/navigation.gif" class="img-fluid" alt="">
-        </div>
-        <div class="col-lg-8 pt-4 pt-lg-0 content">
-        <!--<div class="col-lg-8 pt-4 pt-lg-1 content" data-aos="fade-left">-->
-          <h4>PUTN: A Plane-fitting based Uneven Terrain Navigation Framework</h4>
-          <p class="font-italic">
-            <strong>
-              <font size="4pt" color="grey">Research Mentor | IROS 2022</font>
-            </strong>
-            <br>
-            <font size="4pt" > We proposed a plane-fitting based uneven terrain navigation framework(PUTN) which is designed for effectively navigating on uneven terrain. 
-              A new terrain assessment with plane-fitting to evaluate the traversability of the terrain is proposed.
-              Combined with the informed-RRT* and this terrain assessment method, a new planning algorithm, PF-RRT*, is proposed. By using Gaussian Process, the traversability of the dense path is generated given the sample tree generated by PF-RRT*.
-              The results verify the advantages of the PF-RRT* algorithm and the practicability of PUTN.</font>
-            <br>
-            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2203.04541" target="_blank">Paper</a>
-            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.youtube.com/watch?v=3ZK-Ut29hLI" target="_blank">Video</a>
-            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/jianzhuozhuTHU/putn" target="_blank">Code</a>
-
-          </p>
-
-        </div>
-      </div>
-
-      <p></p> <br>
-
-      <div class="row">
-        <div class="col-lg-4 pt-lg-2">
-        <!--<div class="col-lg-4" data-aos="fade-right">-->
-          <img src="assets/img/demo/jump.gif" class="img-fluid" alt="">
-        </div>
-        <div class="col-lg-8 pt-4 pt-lg-0 content">
-        <!--<div class="col-lg-8 pt-4 pt-lg-1 content" data-aos="fade-left">-->
-          <h4>Autonomous Navigation with Optimized Jumping through Constrained Obstacles on Quadrupeds</h4>
-          <p class="font-italic">
-            <strong>
-              <font size="4pt" color="grey">Collaboration | CASE 2021</font>
-            </strong>
-            <br>
-            <font size="4pt" >
-              We developed an end-to-end framework that enabled multi-modal transitions between walking and jumping skills. 
-              Using multi-phased collocation based nonlinear optimization, optimal trajectories were generated for the quadrupedal robot while avoiding obstacles and allowing the robot to jump through window-shaped obstacles. 
-              An integrated state machine, path planner, and jumping and walking controllers enabled the Mini-Cheetah to jump over obstacles and navigate previously nontraversable areas.</font>
-            <br>
-            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2107.00773" target="_blank">Paper</a>
-            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.youtube.com/watch?v=5pzJ8U7YyGc" target="_blank">Video</a>
-          </p>
-
-        </div>
-      </div>
-
-      <p></p> <br>
-
-      <div class="row">
-        <div class="col-lg-4 pt-lg-2">
-        <!--<div class="col-lg-4" data-aos="fade-right">-->
-          <img src="assets/img/demo/amphi.gif" class="img-fluid" alt="">
-        </div>
-        <div class="col-lg-8 pt-4 pt-lg-0 content">
-        <!--<div class="col-lg-8 pt-4 pt-lg-1 content" data-aos="fade-left">-->
-          <h4>Hexapod Robotic’s Trajectory Tracking with DNN-Based Nonlinear Model Predictive Control</h4>
-          <p class="font-italic">
-            <strong>
-              <font size="4pt" color="grey"> Collaboration | AIM 2021 </font>
-            </strong>
-            <br>
-            <font size="4pt" >We first contribute a well design deep neural network (DNN) as a precise black-box kinematic model of the amphibious robot. Then, we design a DNN based nonlinear model predictive controller which obtains the robot’s real-time moving command by iterative optimization. The simulation results indicate the proposed controller is superior to the basic controller in the robot’s tracking efficiency and accuracy.</font>
-            <br>
-            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://ieeexplore.ieee.org/document/9159003" target="_blank">Paper</a>
-            <!-- <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.youtube.com/watch?v=FySXRzmji8Y&t=11s" target="_blank">Video</a> -->
-          </p>
-          </p>
-        </div>
-      </div>
-
-
-
-    </div>
-
-
-
-
-    <!-- <div class="container">
-
-      <div class="section-title">
-        <h2>Invited Talks</h2>
-      </div>
-
-
-    </div> -->
-
-    <div class="container">
-
-      <div class="section-title">
-        <h2>Media</h2>
-      </div>
-
-      <div class="row">
-
-        <div class="col-lg-12 pt-2 pt-lg-0 content">
-          <h2>Robotic Guide Dog [Apr. 2021]</h2>
-          <ul>
-          <!-- <li><i class="icofont-rounded"></i>03/2022: I receive the UBC Four Year Doctoral Fellowship.</li> -->
-          <li><i class="icofont-rounded"></i><a href= "https://techxplore.com/news/2021-04-robotic-dog-individuals.html" target="_blank">Tech Xplore</a> </li>
-          <li><i class="icofont-rounded"></i><a href= "https://mp.weixin.qq.com/s/U0c1rOuDCF3dgkoG0zMx9Q" target="_blank">MIT Technology Review Chinese (DeepTech)</a></li>
-          <li><i class="icofont-rounded"></i><a href= "https://www.newscientist.com/article/2273390-robot-guide-dog-could-help-people-who-are-blind-navigate/" target="_blank"> New Scientist</a></li>
-          <li><i class="icofont-rounded"></i><a href= "https://www.dailymail.co.uk/sciencetech/article-9441691/Robots-Scientists-develop-four-legged-guide-dog-bot-lead-blind-people-obstacles.html" target="_blank">Daily Mail</a> </li>
-          <li><i class="icofont-rounded"></i><a href= "https://theindependent.sg/robotic-dog-to-guide-the-blind-and-visually-impaired/" target="_blank">The Independent</a> </li>
-          <li><i class="icofont-rounded"></i><a href= "https://techxplore.com/news/2021-04-laser-equipped-robotic-dog-people.html" target="_blank">Tech Xplore</a> </li>
-          <li><i class="icofont-rounded"></i><a href= "https://www.dailycal.org/2021/04/12/uc-berkeley-researchers-create-robotic-guide-dog-for-visually-impaired-people/" target="_blank">Daily Californian</a> </li>
-          </ul>
-        </div>
-      </div>
-
-    </div><!-- End Skills -->
-
-  </section> 
-
-
 
 
   <!-- ======= Coursework Section ======= -->

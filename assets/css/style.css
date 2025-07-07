@@ -43,7 +43,7 @@ body::before {
   content: "";
   position: fixed;
   /* background: #040404 url("../img/demo.gif") top right no-repeat; */
-  background: #040404 url("../img/bg.jpg") top right no-repeat;
+  background: #040404 url("../img/bg2.jpg") top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
@@ -348,7 +348,8 @@ section.section-show {
 }
 section .container {
   background: rgba(226, 240, 255, 0.6);
-  padding: 30px 50px 10px 50px;
+  /* padding: 30px 50px 10px 50px; */
+  padding: 10px 50px 10px 50px;
   /* padding: 30px 30px 10px 30px; */
   width: 100%;
 

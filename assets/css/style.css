@@ -24,7 +24,7 @@ h6,
 li
 {
   /* font-family: 'Lato', Verdana, Helvetica, sans-serif; */
-  font-family: "TeXGyrePagella", "Palatino Linotype", "Book Antiqua", Palatino, serif; 
+  font-family: "Perpetua", "Times New Roman", "Book Antiqua", Palatino, serif; 
   color: #142926;
 
   /* font-size: 15px; */
@@ -33,7 +33,7 @@ li
 
 body {
   
-  font-family: "Open Sans", sans-serif;
+  font-family: "Perpetua", "Times New Roman", "Book Antiqua", Palatino, serif;
   background-color: #a0c526;
   /* background-color: #ec2f00; */
   color: #fff;
@@ -95,7 +95,7 @@ a:hover {
   padding: 0;
   line-height: 1;
   font-weight: 700;
-  font-family: "Poppins", sans-serif;
+  font-family: "Perpetua", "Times New Roman", "Book Antiqua", Palatino, serif;
 }
 #header h1 a, #header h1 a:hover {
   color: #fff;
@@ -112,7 +112,7 @@ a:hover {
   color: #313131;
   margin-bottom: 50px;
   font-size: 26px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Perpetua", "Times New Roman", "Book Antiqua", Palatino, serif;
 }
 
 #header p span {
@@ -232,7 +232,7 @@ a:hover {
   align-items: center;
   justify-content: space-between;
   padding: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Perpetua", "Times New Roman", "Book Antiqua", Palatino, serif;
   font-size: 16px;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.7);
@@ -373,7 +373,7 @@ section .container {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #333333;
-  font-family: "Poppins", sans-serif;
+  font-family: "Perpetua", "Times New Roman", "Book Antiqua", Palatino, serif;
 }
 .section-title h2::after {
   content: "";
@@ -389,7 +389,7 @@ section .container {
   font-size: 36px;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  font-family: "Perpetua", "Times New Roman", "Book Antiqua", Palatino, serif;
   color: #fff;
 }
 
@@ -419,7 +419,7 @@ section .container {
   margin-right: 10px;
 }
 .about-me .content ul i {
-  font-size: 16px;
+  font-size: 17px;
   margin-right: 5px;
   color: #18d26e;
   line-height: 0;
@@ -479,7 +479,7 @@ section .container {
 .counts .count-box p {
   padding: 0;
   margin: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "Perpetua", "Times New Roman", "Book Antiqua", Palatino, serif;
   font-size: 14px;
 }
 
@@ -498,7 +498,7 @@ section .container {
   text-transform: uppercase;
   display: block;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: "Perpetua", "Times New Roman", "Book Antiqua", Palatino, serif;
   color: #fff;
 }
 .skills .progress .skill .val {
@@ -631,7 +631,7 @@ section .container {
   font-size: 18px;
   font-weight: 600;
   /* text-transform: uppercase; */
-  font-family: "Poppins", sans-serif;
+  font-family: "Perpetua", "Times New Roman", "Book Antiqua", Palatino, serif;
   color: #18d26e;
   margin-bottom: 10px;
 }
@@ -735,7 +735,7 @@ section .container {
 }
 .services .icon-box p {
   line-height: 24px;
-  font-size: 16px;
+  font-size: 17px;
   margin-bottom: 0;
 }
 .services .icon-box:hover {
@@ -811,6 +811,21 @@ section .container {
   font-size: 24px;
   
 }
+.misc .content ul li {
+  font-size: 18px;
+}
+.misc .content p {
+  font-size: 18px;
+}
+
+.joinus .content ul li {
+  font-size: 18px;  
+}
+.joinus .content p {
+  font-size: 18px;
+}
+
+
 /*--------------------------------------------------------------
 # publications
 --------------------------------------------------------------*/

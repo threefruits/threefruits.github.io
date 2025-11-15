@@ -1,719 +1,434 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=1920, user-scalable=no">
-
-  <title>Research - Anxing Xiao</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <!-- Favicons -->
-  <link rel="shortcut icon" href="assets/img/icon.png"/>
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research - Anxing Xiao</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles/globals.css">
+    <style>
+        svg a {
+            text-decoration: none;
+        }
+        svg a .block-rect {
+            transition: fill 0.2s, opacity 0.2s;
+        }
+        svg a:hover .block-rect {
+            fill: rgba(133, 160, 173, 0.85);
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
-
 <body>
-  <!-- ======= Header ======= -->
-  <header id="header" class="header-top">
-    <div class="container">
+    <div class="background-image"></div>
 
-      <h1><a href="index.html">Anxing Xiao</a></h1>
-      <h2>CS PhD Student at National University of Singapore</h2>
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link" href="index.html">About Me</a></li>
-          <li><a class="nav-link active" href="research.html">Research</a></li>
-          <li><a class="nav-link" href="publications.html">Publications</a></li>
-          <!-- <li><a class="nav-link" href="coursework.html">Coursework</a></li> -->
-          <li><a class="nav-link" href="misc.html">Misc</a></li>
-          <li><a class="nav-link" href="joinus.html">Join Us</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-      <div class="social-links">
-        <a href="https://scholar.google.com/citations?user=qrgIuiEAAAAJ" class="google"><i class="bi bi-google"></i></a>
-        <a href="https://www.linkedin.com/in/anxingxiao/" class="linkedin"><i class="bi bi-linkedin"></i></a>
-        <a href="https://www.facebook.com/" class="facebook"><i class="bi bi-facebook"></i></a>
-      </div>
-
-    </div>
-  </header><!-- End Header -->
-
-  <!-- ======= Research Section ======= -->
-  <section id="research" class="services section-show">
-    <div class="container">
-      <br>
-      <div class="section-title">
-        <h2>Research</h2>
-      </div>
-      <div class="col-lg-12 pt-0 pt-lg-0 content">
-        <p class="">
-           My research interests lie in developing both general-purpose algorithms and specialized autonomous systems for service robots, including planning, human-robot interaction, and service robot design. 
-           I aim to bridge the gap between robotics research and its real-world applications in socially aware scenarios.
-           </p>
-           <p style="margin-top: 0em;">
-           My long-term research goal is to develop <strong> deployable </strong>service robotic systems capable of operating in <strong>open-world</strong> environments. 
-           I define the open world as one characterized by (1) natural and unconstrained human behavior, (2) incomplete environmental knowledge at both the semantic and geometric levels, and (3) unknown environmental structures populated with novel objects.  
-           </p>
-           <p style="margin-top: 0em;">
-           To tackle the challenges of open-world operation, I adopt the system design grounded in <strong>compositionality</strong> and <strong>modularity</strong>.
-          I explore structured representations that link semantic concepts with their grounding in the physical world. 
-          
-          At the low level, I develop robust navigation and manipulation systems that passively tolerate unforeseen objects and environments in a passive manner. 
-          At the high level, I design systems and algorithms that actively expand the robot's representations and models. 
-          I also incorporate human presence to interact with both high-level and low-level representations.       
-         </p>
-      </div>
-
-
-      <!-- <br> -->
-
-      <!-- <div class="row">
-        <div class="col-lg-4 d-flex align-items-stretch mt-4 mt-md-0">
-          <div class="icon-box">
-            <h4>Open-world Planning and Interaction</h4>
-            <p>Develop algorithms and systems for service robots to interact with the open world.</p>
-          </div>
+    <header class="bg-gradient-to-r from-teal-700 to-blue-900 shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-8 py-4">
+            <div class="flex items-center justify-between">
+                <h1 class="text-white">Anxing Xiao</h1>
+                <nav class="flex gap-4">
+                    <a href="index.html" class="inline-block px-3 py-1 rounded-md text-white hover:text-white hover:bg-blue-200/10 transition-colors">About Me</a>
+                    <a href="research.html" class="inline-block px-3 py-1 rounded-md text-white hover:text-white hover:bg-blue-200/10 transition-colors">Research</a>
+                    <a href="publications.html" class="inline-block px-3 py-1 rounded-md text-white hover:text-white hover:bg-blue-200/10 transition-colors">Publications</a>
+                    <a href="misc.html" class="inline-block px-3 py-1 rounded-md text-white hover:text-white hover:bg-blue-200/10 transition-colors">Misc</a>
+                    <a href="join.html" class="inline-block px-3 py-1 rounded-md text-white hover:text-white hover:bg-blue-200/10 transition-colors">Join Us</a>
+                </nav>
+            </div>
         </div>
+    </header>
 
-        <div class="col-lg-4 d-flex align-items-stretch mt-4 mt-md-0">
-          <div class="icon-box">
-            <h4>Socially-Aware Service Robots</h4>
-            <p>Autonomous service robots that can perform useful socially-aware applications for humans.</p>
-          </div>
-        </div>
+    <main class="py-8">
+        <section class="max-w-7xl mx-auto px-8 py-2">
+            <div class="bg-white/60 backdrop-blur-sm p-8 rounded-lg shadow-lg space-y-0">
+                <div>
+                    <h2 class="text-gray-800 mb-1">RESEARCH</h2>
+                    <div class="border-t-2 border-gray-400 w-24 mb-4"></div>
+                    <div class="space-y-4 text-gray-700 leading-relaxed">
+                        <p>My research interests lie in developing both general-purpose algorithms and specialized autonomous systems for service robots, including planning, human-robot interaction, and service robot design. I aim to bridge the gap between robotics research and its real-world applications in socially aware scenarios.</p>
+                        <p class="mt-0">My long-term research goal is to develop <strong>deployable</strong> service robotic systems capable of operating in <strong>open-world</strong> environments. I define the open world as one characterized by (1) natural and unconstrained human behavior, (2) incomplete environmental knowledge at both the semantic and geometric levels, and (3) unknown environmental structures populated with novel objects.</p>
+                        <p class="mt-0">To tackle the challenges of open-world operation, I adopt the system design grounded in <strong>compositionality</strong> and <strong>modularity</strong>. I explore structured representations that link semantic concepts with their grounding in the physical world. At the low level, I develop robust navigation and manipulation systems that passively tolerate unforeseen objects and environments. At the high level, I design systems and algorithms that actively expand the robot's representations and models, and incorporate human presence at both levels.</p>
+                    </div>
+                </div>
 
-        <div class="col-lg-4 d-flex align-items-stretch mt-4 mt-md-0" >
-          <div class="icon-box">
-            <h4>Navigation in the Wild</h4>
-            <p>Enable service robots with complex navigation skills in unstructured environments.</p>
-          </div>
-        </div>
+                <div>
+                    <div class="overflow-x-auto">
+                        <svg width="1400" height="330" viewBox="0 0 1400 330" class="max-w-full">
+                            <line x1="530" y1="85" x2="200" y2="180" stroke="black" stroke-width="2" opacity="0.6"/>
+                            <text x="300" y="85" text-anchor="middle" font-size="13" fill="black" >Socially-Aware Navigation/Exploration</text>
+                            <text x="300" y="105" text-anchor="middle" font-size="13" fill="black" >Multimodal Domain Induction for TAMP</text>
 
-      </div> -->
+                            <line x1="870" y1="86" x2="1200" y2="180" stroke="black" stroke-width="2" opacity="0.6"/>
+                            <text x="1095" y="85" text-anchor="middle" font-size="13" fill="black" >Mobile Manipulation in the Changing Environment</text>
+                            <text x="1095" y="105" text-anchor="middle" font-size="13" fill="black" >Planning with Partial World Knowledge</text>
 
-      <!-- Research Areas Connection Diagram -->
-      <svg width="100%" height="330" viewBox="0 0 1400 330" style="max-width: 1400px;">
-         <!-- Connection Lines -->
-         <!-- Top block left edge to left block top edge -->
-         <line x1="530" y1="85" x2="200" y2="180" stroke="black" stroke-width="3" opacity="0.6"/>
-         <text x="300" y="85" text-anchor="middle" font-size="16" fill="black" font-weight="bold">Socially-Aware Navigation/Exploration</text>
-         <text x="300" y="105" text-anchor="middle" font-size="16" fill="black" font-weight="bold">Multimodal Domain Induction for TAMP</text>
+                            <line x1="370" y1="265" x2="1030" y2="265" stroke="black" stroke-width="2" opacity="0.6"/>
+                            <text x="700" y="285" text-anchor="middle" font-size="13" fill="black" >Multimodal Instructions Grounding</text>
+                            <text x="700" y="305" text-anchor="middle" font-size="13" fill="black" >Planning and Control for Physical HRI</text>
+                            <text x="700" y="325" text-anchor="middle" font-size="13" fill="black" >Learning from Human Videos</text>
 
-         <!-- Top block right edge to right block top edge -->
-         <line x1="870" y1="86" x2="1200" y2="180" stroke="black" stroke-width="3" opacity="0.6"/>
-         <text x="1095" y="85" text-anchor="middle" font-size="16" fill="black" font-weight="bold">Mobile Manipulation in the Changing Environment</text>
-         <text x="1095" y="105" text-anchor="middle" font-size="16" fill="black" font-weight="bold">Planning with Partial World Knowledge</text>
+                            <a href="#open-world-interaction" style="cursor: pointer;">
+                                <g class="research-block" data-area="planning">
+                                    <rect x="30" y="180" width="340" height="170" rx="0" fill="rgba(133, 160, 173, 0.649)" stroke="none" class="block-rect"/>
+                                    <text x="200" y="225" text-anchor="middle" font-size="18" font-weight="bold" fill="#191818">Open-world Interaction</text>
+                                    <text x="200" y="265" text-anchor="middle" font-size="13" fill="#191818">Enabling seamless human-robot interaction</text>
+                                    <text x="200" y="295" text-anchor="middle" font-size="13" fill="#191818"> in daily assistive tasks by developing</text>
+                                    <text x="200" y="325" text-anchor="middle" font-size="13" fill="#191818">algorithms that reduce human effort.</text>
+                                </g>
+                            </a>
 
-         <!-- Left block right edge to right block left edge -->
-         <line x1="370" y1="265" x2="1030" y2="265" stroke="black" stroke-width="3" opacity="0.6"/>
-         <text x="700" y="285" text-anchor="middle" font-size="16" fill="black" font-weight="bold">Multimodal Instructions Grounding</text>
-         <text x="700" y="305" text-anchor="middle" font-size="16" fill="black" font-weight="bold">Planning and Control for Physical HRI</text>
-         <text x="700" y="325" text-anchor="middle" font-size="16" fill="black" font-weight="bold">Learning from Human Videos</text>
+                            <a href="#open-world-reasoning" style="cursor: pointer;">
+                                <g class="research-block" data-area="social">
+                                    <rect x="530" y="0" width="340" height="170" rx="0" fill="rgba(133, 160, 173, 0.649)" stroke="none" class="block-rect"/>
+                                    <text x="700" y="45" text-anchor="middle" font-size="18" font-weight="bold" fill="#191818">Open-world Reasoning</text>
+                                    <text x="700" y="85" text-anchor="middle" font-size="13" fill="#191818">Enabling robots to reason and</text>
+                                    <text x="700" y="115" text-anchor="middle" font-size="13" fill="#191818">generate plans with limited knowledge</text>
+                                    <text x="700" y="145" text-anchor="middle" font-size="13" fill="#191818">about the unknown environment.</text>
+                                </g>
+                            </a>
 
-        
-        <!-- Research Area Blocks -->
-         <!-- Open-world Planning and Interaction -->
-         <g class="research-block" data-area="planning">
-           <rect x="30" y="180" width="340" height="170" rx="0" fill="rgba(133, 160, 173, 0.649)" stroke="none" class="block-rect"/>
-           <text x="200" y="225" text-anchor="middle" font-size="22" font-weight="bold" fill="#191818">Open-world Interaction</text>
-           <text x="200" y="265" text-anchor="middle" font-size="18" fill="#191818">Enabling seamless human-robot interaction</text>
-           <text x="200" y="295" text-anchor="middle" font-size="18" fill="#191818"> in daily assistive tasks by developing</text>
-           <text x="200" y="325" text-anchor="middle" font-size="18" fill="#191818">algorithms that reduce human effort.</text>
-          </g>
-         
-         <!-- Socially-Aware Service Robots -->
-         <g class="research-block" data-area="social">
-           <rect x="530" y="0" width="340" height="170" rx="0" fill="rgba(133, 160, 173, 0.649)" stroke="none" class="block-rect"/>
-           <text x="700" y="45" text-anchor="middle" font-size="22" font-weight="bold" fill="#191818">Open-world Reasoning</text>
-           <text x="700" y="85" text-anchor="middle" font-size="18" fill="#191818">Enabling robots to reason and  </text>
-           <text x="700" y="115" text-anchor="middle" font-size="18" fill="#191818">generate plans with limited knowledge </text>
-           <text x="700" y="145" text-anchor="middle" font-size="18" fill="#191818"> about the unknown environment.</text>
-          </g>
-         
-         <!-- Navigation in the Wild -->
-         <g class="research-block" data-area="navigation">
-           <rect x="1030" y="180" width="340" height="170" rx="0" fill="rgba(133, 160, 173, 0.649)" stroke="none" class="block-rect"/>
-           <text x="1200" y="225" text-anchor="middle" font-size="22" font-weight="bold" fill="#191818">Open-world Cability</text>
-           <text x="1200" y="265" text-anchor="middle" font-size="18" fill="#191818">Empowering robots the ability to perform</text>
-           <text x="1200" y="295" text-anchor="middle" font-size="18" fill="#191818"> generalizable navigation/manipulation</text>
-           <text x="1200" y="325" text-anchor="middle" font-size="18" fill="#191818">skills in unknown environments.</text>
+                            <a href="#open-world-capability" style="cursor: pointer;">
+                                <g class="research-block" data-area="navigation">
+                                    <rect x="1030" y="180" width="340" height="170" rx="0" fill="rgba(133, 160, 173, 0.649)" stroke="none" class="block-rect"/>
+                                    <text x="1200" y="225" text-anchor="middle" font-size="18" font-weight="bold" fill="#191818">Open-world Capability</text>
+                                    <text x="1200" y="265" text-anchor="middle" font-size="13" fill="#191818">Empowering robots the ability to perform</text>
+                                    <text x="1200" y="295" text-anchor="middle" font-size="13" fill="#191818">generalizable navigation/manipulation</text>
+                                    <text x="1200" y="325" text-anchor="middle" font-size="13" fill="#191818">skills in unknown environments.</text>
+                                </g>
+                            </a>
 
-          </g>
-        
-        <!-- Connection Points (invisible) -->
-        <circle cx="530" cy="120" r="4" fill="transparent"/>
-        <circle cx="870" cy="120" r="4" fill="transparent"/>
-        <circle cx="200" cy="180" r="4" fill="transparent"/>
-        <circle cx="1200" cy="180" r="4" fill="transparent"/>
-        <circle cx="370" cy="250" r="4" fill="transparent"/>
-        <circle cx="1030" cy="250" r="4" fill="transparent"/>
-      </svg>
+                            <circle cx="530" cy="120" r="4" fill="transparent"/>
+                            <circle cx="870" cy="120" r="4" fill="transparent"/>
+                            <circle cx="200" cy="180" r="4" fill="transparent"/>
+                            <circle cx="1200" cy="180" r="4" fill="transparent"/>
+                            <circle cx="370" cy="250" r="4" fill="transparent"/>
+                            <circle cx="1030" cy="250" r="4" fill="transparent"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    </div>
-    
-    <div id='reasoning' class="container">
-      <br>
-      <div >
-        <h3>Open-world Interaction</h3>
-      </div>
-      <p></p><p></p> <br>
+        <section id="open-world-interaction" class="max-w-7xl mx-auto px-8 py-7">
+            <div class="bg-white/60 backdrop-blur-sm p-8 rounded-lg shadow-lg space-y-4">
+                <h2 class="text-gray-800">Open-world Interaction</h2>
+                <div class="border-t-2 border-gray-400 w-24 mb-4"></div>
+                <div class="space-y-4">
+                    <div class="bg-white/60 p-6 rounded-lg border border-gray-200">
+                        <div class="flex flex-row gap-6">
+                            <div class="w-64 flex-shrink-0">
+                                <img src="assets/img/demo/gson.gif" class="w-full aspect-[16/9] object-cover rounded" alt="GSON">
+                            </div>
+                            <div class="flex-1 space-y-1">
+                                <h3 class="text-gray-800">GSON: A Group-based Social Navigation Framework with Large Multimodal Model</h3>
+                                <p class="text-gray-700 italic">IEEE Robotics and Automation Letters (RA-L) 2025.</p>
+                                <p class="text-gray-600">Shangyi Luo, Peng Sun, Ji Zhu, Yuhong Deng, Cunjun Yu, <strong>Anxing Xiao</strong> (Mentor), Xueqian Wang</p>
+                                <div class="pt-1">
+                                    <p class="text-gray-700"><strong>TL;DR:</strong> Group-aware social navigation using large multimodal models for socially-aware robot motion.</p>
+                                </div>
+                                <div class="flex flex-wrap gap-2 pt-1">
+                                    <a href="https://arxiv.org/pdf/2409.18084" class="button" target="_blank">Paper</a>
+                                    <a href="https://www.youtube.com/watch?v=S_o-hvIBg5M" class="button" target="_blank">Video</a>
+                                    <a href="https://github.com/lsylsy0516/GSON" class="button" target="_blank">Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="bg-white/60 p-6 rounded-lg border border-gray-200">
+                        <div class="flex flex-row gap-6">
+                            <div class="w-64 flex-shrink-0">
+                                <img src="assets/img/demo/robibutler.gif" class="w-full aspect-[16/9] object-cover rounded" alt="Robi Butler">
+                            </div>
+                            <div class="flex-1 space-y-1">
+                                <h3 class="text-gray-800">Robi Butler: Multimodal Remote Interactions with a Household Robot Assistant</h3>
+                                <p class="text-gray-700 italic">IEEE International Conference on Robotics and Automation (ICRA) 2025.</p>
+                                <p class="text-gray-600"><strong>Anxing Xiao</strong>, Nuwan Janaka, Tianrun Hu, Anshul Gupta, Kaixin Li, Cunjun Yu, David Hsu</p>
+                                <div class="pt-1">
+                                    <p class="text-gray-700"><strong>TL;DR:</strong> Remote multimodal (language + gesture) interactions with household robots.</p>
+                                </div>
+                                <div class="flex flex-wrap gap-2 pt-1">
+                                    <a href="https://arxiv.org/abs/2409.20548" class="button" target="_blank">Paper</a>
+                                    <a href="https://youtu.be/kz6P3ui-s3I?si=oXWV54YuRMzCRsQL" class="button" target="_blank">Video</a>
+                                    <a href="https://robibutler.github.io/" class="button" target="_blank">Website</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="bg-white/60 p-6 rounded-lg border border-gray-200">
+                        <div class="flex flex-row gap-6">
+                            <div class="w-64 flex-shrink-0">
+                                <img src="assets/img/demo/guidedog2.gif" class="w-full aspect-[16/9] object-cover rounded" alt="Quadruped Guidance Robot">
+                            </div>
+                            <div class="flex-1 space-y-1">
+                                <h3 class="text-gray-800">Quadruped Guidance Robot for the Visually Impaired: A Comfort-Based Approach</h3>
+                                <p class="text-gray-700 italic">IEEE International Conference on Robotics and Automation (ICRA) 2023.</p>
+                                <p class="text-gray-600">Yanbo Chen, Zhengzhe Xu, Zhuozhu Jian, Gengpan Tang, Yunong Yangli, <strong>Anxing Xiao</strong> (Mentor), Xueqian Wang, Bin Liang</p>
+                                <div class="pt-1">
+                                    <p class="text-gray-700"><strong>TL;DR:</strong> Comfort-based guidance that safely leads visually impaired users through complex environments.</p>
+                                </div>
+                                <div class="flex flex-wrap gap-2 pt-1">
+                                    <a href="https://arxiv.org/abs/2203.03927" class="button" target="_blank">Paper</a>
+                                    <a href="https://www.youtube.com/watch?v=Xroov-UASC0" class="button" target="_blank">Video</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="bg-white/60 p-6 rounded-lg border border-gray-200">
+                        <div class="flex flex-row gap-6">
+                            <div class="w-64 flex-shrink-0">
+                                <img src="assets/img/demo/guidedog1.gif" 
+                                     alt="Robotic Guide Dog" 
+                                     class="w-full aspect-[16/9] object-cover rounded">
+                            </div>
+                            
+                            <div class="flex-1 space-y-1">
+                                <h3 class="text-gray-800">Robotic Guide Dog: Leading a Human with Leash-Guided Hybrid Physical Interactions</h3>
+                                <p class="text-gray-700 italic">IEEE International Conference on Robotics and Automation (ICRA) 2021.</p>
+                                <p class="text-gray-600"><strong>Anxing Xiao</strong>, Wenzhe Tong, Lizhi Yang, Jun Zeng, Zhongyu Li, Koushil Sreenath</p>
+                                <p class="text-gray-600"><span class="text-orange-600"> ICRA Best Paper Award Finalist for Service Robotics.</span></p>
+                                <div class="pt-0">
+                                    <p class="text-gray-700">
+                                        <strong>TL;DR:</strong> The world's first robotic guide dog that can lead visually impaired to safely travel in a confined space.
+                                    </p>
+                                </div>
+                                
+                                <div class="flex flex-wrap gap-2 pt-1">
+                                    <a href="https://arxiv.org/abs/2103.14300" class="button" target="_blank">Paper</a>
+                                    <a href="https://www.youtube.com/watch?v=FySXRzmji8Y&t=11s" class="button" target="_blank">Video</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <section id="open-world-reasoning" class="max-w-7xl mx-auto px-8 py-7">
+            <div class="bg-white/60 backdrop-blur-sm p-8 rounded-lg shadow-lg space-y-4">
+                <h2 class="text-gray-800">Open-world Reasoning</h2>
+                <div class="border-t-2 border-gray-400 w-24 mb-4"></div>
+                <div class="space-y-4">
+                    <div class="bg-white/60 p-6 rounded-lg border border-gray-200">
+                        <div class="flex flex-row gap-6">
+                            <div class="w-64 flex-shrink-0">
+                                <img src="assets/img/demo/apbot.gif" class="w-full aspect-[16/9] object-cover rounded" alt="ApBot">
+                            </div>
+                            <div class="flex-1 space-y-1">
+                                <h3 class="text-gray-800">Robot Operation of Home Appliances by Reading User Manuals</h3>
+                                <p class="text-gray-700 italic">Conference on Robot Learning (CoRL) 2025.</p>
+                                <p class="text-gray-600">Jian Zhang, Hanbo Zhang, <strong>Anxing Xiao</strong>, David Hsu</p>
+                                <div class="pt-1">
+                                    <p class="text-gray-700"><strong>TL;DR:</strong> Read and follow user manuals to operate home appliances autonomously.</p>
+                                </div>
+                                <div class="flex flex-wrap gap-2 pt-1">
+                                    <a href="https://arxiv.org/abs/2505.20424" class="button" target="_blank">Paper</a>
+                                    <a href="https://www.youtube.com/watch?v=lk7SyVyE380" class="button" target="_blank">Video</a>
+                                    <a href="https://github.com/zhangj1an/ApBot" class="button" target="_blank">Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="bg-white/60 p-6 rounded-lg border border-gray-200">
+                        <div class="flex flex-row gap-6">
+                            <div class="w-64 flex-shrink-0">
+                                <img src="assets/img/demo/octopi_demo.gif" class="w-full aspect-[16/9] object-cover rounded" alt="Octopi">
+                            </div>
+                            <div class="flex-1 space-y-1">
+                                <h3 class="text-gray-800">Octopi: Object Property Reasoning with Large Tactile-Language Models</h3>
+                                <p class="text-gray-700 italic">Robotics: Science and Systems (RSS) 2024.</p>
+                                <p class="text-gray-600">Samson Yu, Kelvin Lin, <strong>Anxing Xiao</strong>, Jiafei Duan, and Harold Soh</p>
+                                <div class="pt-1">
+                                    <p class="text-gray-700"><strong>TL;DR:</strong> Combine tactile sensing with language to infer physical properties via interaction.</p>
+                                </div>
+                                <div class="flex flex-wrap gap-2 pt-1">
+                                    <a href="https://arxiv.org/pdf/2405.02794" class="button" target="_blank">Paper</a>
+                                    <a href="https://octopi-tactile-lvlm.github.io/" class="button" target="_blank">Website</a>
+                                    <a href="https://github.com/clear-nus/octopi" class="button" target="_blank">Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-      <p></p>
+                    <div class="bg-white/60 p-6 rounded-lg border border-gray-200">
+                        <div class="flex flex-row gap-6">
+                            <div class="w-64 flex-shrink-0">
+                                <img src="assets/img/demo/llmstate.gif" class="w-full aspect-[16/9] object-cover rounded" alt="LLM-State">
+                            </div>
+                            <div class="flex-1 space-y-1">
+                                <h3 class="text-gray-800">LLM-State: Expandable State Representation for Long-horizon Task Planning in the Open World</h3>
+                                <p class="text-gray-700 italic">Preprint 2024.</p>
+                                <p class="text-gray-600">Siwei Chen, <strong>Anxing Xiao</strong>, David Hsu</p>
+                                <div class="pt-1">
+                                    <p class="text-gray-700"><strong>TL;DR:</strong> Maintain and expand object attributes for long-horizon planning in open worlds.</p>
+                                </div>
+                                <div class="flex flex-wrap gap-2 pt-1">
+                                    <a href="https://arxiv.org/pdf/2311.17406" class="button" target="_blank">Paper</a>
+                                    <a href="https://www.youtube.com/watch?v=QkN-8pxV3Mo" class="button" target="_blank">Video</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="open-world-capability" class="max-w-7xl mx-auto px-8 py-7">
+            <div class="bg-white/60 backdrop-blur-sm p-8 rounded-lg shadow-lg space-y-4">
+                <h2 class="text-gray-800">Open-world Capability</h2>
+                <div class="border-t-2 border-gray-400 w-24 mb-4"></div>
+                <div class="space-y-4">
+                    <div class="bg-white/60 p-6 rounded-lg border border-gray-200">
+                        <div class="flex flex-row gap-6">
+                            <div class="w-64 flex-shrink-0">
+                                <img src="assets/img/demo/mimicfunc.gif" class="w-full aspect-[16/9] object-cover rounded" alt="MimicFunc">
+                            </div>
+                            <div class="flex-1 space-y-1">
+                                <h3 class="text-gray-800">MimicFunc: Imitating Tool Manipulation from a Single Human Video via Functional Correspondence</h3>
+                                <p class="text-gray-700 italic">Conference on Robot Learning (CoRL) 2025.</p>
+                                <p class="text-gray-600">Chao Tang, <strong>Anxing Xiao</strong>, Yuhong Deng, Tianrun Hu, Wenlong Dong, Hanbo Zhang, David Hsu, Hong Zhang</p>
+                                <div class="pt-1">
+                                    <p class="text-gray-700"><strong>TL;DR:</strong> Learn tool-use from a single human video via functional correspondence.</p>
+                                </div>
+                                <div class="flex flex-wrap gap-2 pt-1">
+                                    <a href="https://www.arxiv.org/abs/2508.13534" class="button" target="_blank">Paper</a>
+                                    <a href="https://sites.google.com/view/mimicfunc" class="button" target="_blank">Website</a>
+                                    <a href="https://github.com/mkt1412/FUNCTO_public" class="button" target="_blank">Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-      <!-- GSON -->
-      <div class="row">
-        <div class="col-lg-3 pt-lg-2">
-          <img src="assets/img/demo/gson.gif" class="img-fluid" alt="">
-        </div>
-        <div class="col-lg-9 pt-4 pt-lg-0 content">
-          <h4><strong>GSON: A Group-based Social Navigation Framework with Large Multimodal Model</strong></h4>
-          <p class="font-italic">
-            <font size="4pt">
-              <em>
-                IEEE Robotics and Automation Letters (RA-L) 2025. 
-              </em>
-            </font>
-            <br>
-            <font size="4pt" color="grey">Shangyi Luo, Peng Sun, Ji Zhu, Yuhong Deng, Cunjun Yu, <strong>Anxing Xiao</strong> (Mentor), Xueqian Wang</font> 
-            <br>
-            <br>
-            <font size="4pt" > 
-              <strong>TL;DR:</strong>
-              Group-based social navigation framework using large multimodal models for socially-aware robot navigation.
-              <br>
-            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/2409.18084" target="_blank">Paper</a>
-            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.youtube.com/watch?v=S_o-hvIBg5M" target="_blank">Video</a>
-            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/lsylsy0516/GSON" target="_blank">Code</a>
-          </p>
-        </div>
-      </div>
+                    <div class="bg-white/60 p-6 rounded-lg border border-gray-200">
+                        <div class="flex flex-row gap-6">
+                            <div class="w-64 flex-shrink-0">
+                                <img src="assets/img/demo/chd.gif" class="w-full aspect-[16/9] object-cover rounded" alt="CHD">
+                            </div>
+                            <div class="flex-1 space-y-1">
+                                <h3 class="text-gray-800">CHD: Coupled Hierarchical Diffusion for Long-Horizon Tasks</h3>
+                                <p class="text-gray-700 italic">Conference on Robot Learning (CoRL) 2025.</p>
+                                <p class="text-gray-600">Ce Hao, <strong>Anxing Xiao</strong>, Zhiwei Xue, Harold Soh</p>
+                                <div class="pt-1">
+                                    <p class="text-gray-700"><strong>TL;DR:</strong> Hierarchical diffusion for planning and executing long-horizon robotic tasks.</p>
+                                </div>
+                                <div class="flex flex-wrap gap-2 pt-1">
+                                    <a href="https://arxiv.org/pdf/2505.07261" class="button" target="_blank">Paper</a>
+                                    <a href="https://www.youtube.com/watch?v=08SWuL0ZwDA" class="button" target="_blank">Video</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-      <p></p>
+                    <div class="bg-white/60 p-6 rounded-lg border border-gray-200">
+                        <div class="flex flex-row gap-6">
+                            <div class="w-64 flex-shrink-0">
+                                <img src="assets/img/demo/trolley_collect.gif" class="w-full aspect-[16/9] object-cover rounded" alt="Trolley Collection">
+                            </div>
+                            <div class="flex-1 space-y-1">
+                                <h3 class="text-gray-800">Robotic Autonomous Trolley Collection with Progressive Perception and Nonlinear Model Predictive Control</h3>
+                                <p class="text-gray-700 italic">IEEE International Conference on Robotics and Automation (ICRA) 2022.</p>
+                                <p class="text-gray-600"><strong>Anxing Xiao</strong>*, Hao Luan*, Ziqi Zhao*, Yue Hong, Jieting Zhao, Jiankun Wang, Max Q-H Meng</p>
+                                <div class="pt-1">
+                                    <p class="text-gray-700"><strong>TL;DR:</strong> Compact robot collects unmarked trolleys in dynamic, complex environments.</p>
+                                </div>
+                                <div class="flex flex-wrap gap-2 pt-1">
+                                    <a href="https://arxiv.org/abs/2110.06648" class="button" target="_blank">Paper</a>
+                                    <a href="https://www.youtube.com/watch?v=6SwjgGvRtno" class="button" target="_blank">Video</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-      <!-- Robi Butler -->
-      <div class="row">
-        <div class="col-lg-3 pt-lg-2">
-          <img src="assets/img/demo/robibutler.gif" class="img-fluid" alt="">
-        </div>
-        <div class="col-lg-9 pt-4 pt-lg-0 content">
-          <h4><strong>Robi Butler: Multimodal Remote Interactions with a Household Robot Assistant</strong></h4>
-          <p class="font-italic">
-            <font size="4pt">
-              <em>
-                IEEE International Conference on Robotics and Automation (ICRA) 2025.
-              </em>
-            </font>
-            <br>
-            <font size="4pt" color="grey"> <strong>Anxing Xiao</strong>, Nuwan Janaka, Tianrun Hu, Anshul Gupta, Kaixin Li, Cunjun Yu, David Hsu</strong>
-            </font>
-            <br>
-            <br>
-            <font size="4pt" > 
-              <strong>TL;DR:</strong>
-              The robot should be able to understand and execute multimodal instructions that combine language and gesture.
-             <br>
-            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2409.20548" target="_blank">Paper</a>
-            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://youtu.be/kz6P3ui-s3I?si=oXWV54YuRMzCRsQL" target="_blank">Video</a>
-            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://robibutler.github.io/" target="_blank">Website</a>
-          </p>
-        </div>
-      </div> 
+                    <div class="bg-white/60 p-6 rounded-lg border border-gray-200">
+                        <div class="flex flex-row gap-6">
+                            <div class="w-64 flex-shrink-0">
+                                <img src="assets/img/demo/trolley_trans.gif" class="w-full aspect-[16/9] object-cover rounded" alt="Collaborative Trolley Transportation">
+                            </div>
+                            <div class="flex-1 space-y-1">
+                                <h3 class="text-gray-800">Collaborative Trolley Transportation System with Autonomous Nonholonomic Robots</h3>
+                                <p class="text-gray-700 italic">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2023.</p>
+                                <p class="text-gray-600">Bingyi Xia, Hao Luan, Ziqi Zhao, Xuheng Gao, Peijia Xie, <strong>Anxing Xiao</strong> (Mentor), Jiankun Wang, Max Q-H Meng</p>
+                                <div class="pt-1">
+                                    <p class="text-gray-700"><strong>TL;DR:</strong> Multi-robot system for collaborative trolley transportation in crowded spaces.</p>
+                                </div>
+                                <div class="flex flex-wrap gap-2 pt-1">
+                                    <a href="https://arxiv.org/abs/2303.06624" class="button" target="_blank">Paper</a>
+                                    <a href="https://www.youtube.com/watch?v=efnPERm0Rco&feature=youtu.be" class="button" target="_blank">Video</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-      <p></p>
+                    <div class="bg-white/60 p-6 rounded-lg border border-gray-200">
+                        <div class="flex flex-row gap-6">
+                            <div class="w-64 flex-shrink-0">
+                                <img src="assets/img/demo/navigation.gif" class="w-full aspect-[16/9] object-cover rounded" alt="PUTN">
+                            </div>
+                            <div class="flex-1 space-y-1">
+                                <h3 class="text-gray-800">PUTN: A Plane-fitting based Uneven Terrain Navigation Framework</h3>
+                                <p class="text-gray-700 italic">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2022.</p>
+                                <p class="text-gray-600">Zhuozhu Jian, Zihong Lu, Xiao Zhou, Bin Lan, <strong>Anxing Xiao</strong> (Mentor), Xueqian Wang, Bin Liang</p>
+                                <div class="pt-1">
+                                    <p class="text-gray-700"><strong>TL;DR:</strong> Plane-fitting based navigation for effective traversal on uneven terrain.</p>
+                                </div>
+                                <div class="flex flex-wrap gap-2 pt-1">
+                                    <a href="https://arxiv.org/abs/2203.04541" class="button" target="_blank">Paper</a>
+                                    <a href="https://www.youtube.com/watch?v=3ZK-Ut29hLI" class="button" target="_blank">Video</a>
+                                    <a href="https://github.com/jianzhuozhuTHU/putn" class="button" target="_blank">Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-      <!-- Quadruped Guidance Robot -->
-      <div class="row">
-        <div class="col-lg-3 pt-lg-2">
-          <img src="assets/img/demo/guidedog2.gif" class="img-fluid" alt="">
-        </div>
-        <div class="col-lg-9 pt-4 pt-lg-0 content">
-          <h4><strong>Quadruped Guidance Robot for the Visually Impaired: A Comfort-Based Approach</strong></h4>
-          <p class="font-italic">
-            <font size="4pt">
-              <em>
-                IEEE International Conference on Robotics and Automation (ICRA) 2023.
-              </em>
-            </font>
-            <br>
-            <font size="4pt" color="grey">Yanbo Chen, Zhengzhe Xu, Zhuozhu Jian, Gengpan Tang, Yunong Yangli, <strong>Anxing Xiao</strong> (Mentor), Xueqian Wang, Bin Liang</font>
-            <br>
-            <br>
-            <font size="4pt" > 
-              <strong>TL;DR:</strong>
-              Comfort-based guidance robot system that safely guides visually impaired users through complex environments.
-              <br>
-            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2203.03927" target="_blank">Paper</a>
-            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.youtube.com/watch?v=Xroov-UASC0" target="_blank">Video</a>
-          </p>
-        </div>
-      </div>
-
-      <p></p>
-      <!-- Robotic Guide Dog -->
-      <div class="row">
-        <div class="col-lg-3 pt-lg-2">
-          <img src="assets/img/demo/guidedog1.gif" class="img-fluid" alt="">
-        </div>
-        <div class="col-lg-9 pt-4 pt-lg-0 content">
-          <h4><strong>Robotic Guide Dog: Leading a Human with Leash-Guided Hybrid Physical Interactions</strong></h4>
-          <p class="font-italic">
-            <font size="4pt">
-              <em>
-                IEEE International Conference on Robotics and Automation (ICRA) 2021.
-              </em>
-            </font>
-            <br>
-            <font size="4pt" color="grey"><strong>Anxing Xiao*</strong>, Wenzhe Tong*, Lizhi Yang*, Jun Zeng, Zhongyu Li, Koushil Sreenath</font>
-            <br>
-            <font color="#ec2f00" size="4pt">This paper was the ICRA Best Paper Award Finalist for Service Robotics.</font>
-            <br>
-            <!-- <br> -->
-            <font size="4pt" > 
-              <strong>TL;DR:</strong>
-              The world's first robotic guide dog that can lead visually impaired to safely travel in a confined space.
-              <br>
-            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2103.14300" target="_blank">Paper</a>
-            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.youtube.com/watch?v=FySXRzmji8Y&t=11s" target="_blank">Video</a>
-          </p>
-        </div>
-      </div>
-
-
-
-    </div>
-    
-    <div id='servicerobots' class="container">
-      <br>
-      <div >
-        <h3>Open-world Reasoning</h3>
-      </div>
-
-      <p></p><p></p> 
-      
-      <!-- Robot Operation of Home Appliances -->
-      <div class="row">
-        <div class="col-lg-3 pt-lg-2">
-          <img src="assets/img/demo/apbot.gif" class="img-fluid" alt="">
-        </div>
-        <div class="col-lg-9 pt-4 pt-lg-0 content">
-          <h4><strong>Robot Operation of Home Appliances by Reading User Manuals</strong></h4>
-          <p class="font-italic">
-            <font size="4pt">
-              <em>
-                Conference on Robot Learning (CoRL) 2025.
-              </em>
-            </font>
-            <br>
-            <font size="4pt" color="grey">Jian Zhang, Hanbo Zhang, <strong>Anxing Xiao</strong>, David Hsu </font>
-            <br>
-            <br>
-            <font size="4pt" > 
-              <strong>TL;DR:</strong>
-              Enabling robots to operate home appliances by understanding and following user manuals.
-              <br>
-            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2505.20424" target="_blank">Paper</a>
-            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.youtube.com/watch?v=lk7SyVyE380" target="_blank">Video</a>
-            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/zhangj1an/ApBot" target="_blank">Code</a>
-          </p>
-        </div>
-      </div>
-
-      <p></p>
-
-      <!-- Octopi -->
-      <div class="row">
-        <div class="col-lg-3 pt-lg-2">
-          <img src="assets/img/demo/octopi_demo.gif" class="img-fluid" alt="">
-        </div>
-        <div class="col-lg-9 pt-4 pt-lg-0 content">
-          <h4><strong>Octopi: Object Property Reasoning with Large Tactile-Language Models</strong></h4>
-          <p class="font-italic">
-            <font size="4pt">
-              <em>
-                Robotics: Science and Systems (RSS) 2024.
-              </em>
-            </font>
-            <br>
-            <font size="4pt" color="grey">Samson Yu, Kelvin Lin, <strong>Anxing Xiao</strong>, Jiafei Duan, and Harold Soh     </font>
-            <br>
-            <br>
-            <font size="4pt" > 
-              <strong>TL;DR:</strong>
-              Combining tactile perception with language enables robots to understand physical properties through interaction.
-              <br>
-            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/2405.02794" target="_blank">Paper</a>
-            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://octopi-tactile-lvlm.github.io/" target="_blank">Website</a>
-            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/clear-nus/octopi" target="_blank">Code</a>
-          </p>
-        </div>
-      </div>
-
-      <!-- LLM-State -->
-      <p></p>
-      <div class="row">
-        <div class="col-lg-3 pt-lg-2">
-          <img src="assets/img/demo/llmstate.gif" class="img-fluid" alt="">
-        </div>
-        <div class="col-lg-9 pt-4 pt-lg-0 content">
-          <h4><strong>LLM-State: Expandable State Representation for Long-horizon Task Planning in the Open World</strong></h4>
-          <p class="font-italic">
-            <font size="4pt">
-              <em>
-                Preprint 2024.
-              </em>
-            </font>
-            <br>
-            <font size="4pt" color="grey">Siwei Chen, <strong>Anxing Xiao</strong>, David Hsu</font>
-            <br>
-            <br>
-            <font size="4pt" > 
-              <strong>TL;DR:</strong>
-              Expandable state representation that continuously updates object attributes for long-horizon task planning.
-              <br>
-            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/2311.17406" target="_blank">Paper</a>
-            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.youtube.com/watch?v=QkN-8pxV3Mo" target="_blank">Video</a>
-          </p>
-        </div>
-      </div>
-
-
-
-
-
-
-
-    </div>
-
-    <div id='navigation' class="container">
-      <br>
-      <div >
-        <h3>Open-world Capability</h3>
-      </div>
-
-      <p></p><p></p> <br>
-
-      <!-- MimicFunc -->
-      <div class="row">
-        <div class="col-lg-3 pt-lg-2">
-          <img src="assets/img/demo/mimicfunc.gif" class="img-fluid" alt="">
-        </div>
-        <div class="col-lg-9 pt-4 pt-lg-0 content">
-          <h4><strong>MimicFunc: Imitating Tool Manipulation from a Single Human Video via Functional Correspondence</strong></h4>
-          <p class="font-italic">
-            <font size="4pt">
-              <em>
-                Conference on Robot Learning (CoRL) 2025.
-              </em>
-            </font>
-            <br>
-            <font size="4pt" color="grey">Chao Tang, <strong>Anxing Xiao</strong>, Yuhong Deng, Tianrun Hu, Wenlong Dong, Hanbo Zhang, David Hsu, Hong Zhang</font>
-            <br>
-            <br>
-            <font size="4pt" > 
-              <strong>TL;DR:</strong>
-              Learning tool manipulation skills from a single human demonstration video through functional correspondence.
-              <br>
-            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.arxiv.org/abs/2508.13534" target="_blank">Paper</a>
-            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://sites.google.com/view/mimicfunc" target="_blank">Website</a>
-            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/mkt1412/FUNCTO_public" target="_blank">Code</a>
-          </p>
-        </div>
-      </div>
-
-      <p></p>
-
-      <!-- CHD -->
-      <div class="row">
-        <div class="col-lg-3 pt-lg-2">
-          <img src="assets/img/demo/chd.gif" class="img-fluid" alt="">
-        </div>
-        <div class="col-lg-9 pt-4 pt-lg-0 content">
-          <h4><strong>CHD: Coupled Hierarchical Diffusion for Long-Horizon Tasks</strong></h4>
-          <p class="font-italic">
-            <font size="4pt">
-              <em>
-                Conference on Robot Learning (CoRL) 2025.
-              </em>
-            </font>
-            <br>
-            <font size="4pt" color="grey">Ce Hao, <strong>Anxing Xiao</strong>, Zhiwei Xue, Harold Soh </font>
-            <br>
-            <br>
-            <font size="4pt" > 
-              <strong>TL;DR:</strong>
-              Coupled hierarchical diffusion approach for planning and executing long-horizon robotic tasks.
-              <br>
-            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/2505.07261" target="_blank">Paper</a>
-            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.youtube.com/watch?v=08SWuL0ZwDA" target="_blank">Video</a>
-          </p>
-        </div>
-      </div>
-
-      <p></p>
-
-      <!-- Robotic Autonomous Trolley Collection -->
-      <div class="row">
-        <div class="col-lg-3 pt-lg-2">
-          <img src="assets/img/demo/trolley_collect.gif" class="img-fluid" alt="">
-        </div>
-        <div class="col-lg-9 pt-4 pt-lg-0 content">
-          <h4><strong>Robotic Autonomous Trolley Collection with Progressive Perception and Nonlinear Model Predictive Control</strong></h4>
-          <p class="font-italic">
-            <font size="4pt">
-              <em>
-                IEEE International Conference on Robotics and Automation (ICRA) 2022.
-              </em>
-            </font>
-            <br>
-            <font size="4pt" color="grey"><strong>Anxing Xiao*</strong>, Hao Luan*, Ziqi Zhao*, Yue Hong, Jieting Zhao, Jiankun Wang, Max Q-H Meng</font>
-            <br>
-            <br>
-            <font size="4pt" > 
-              <strong>TL;DR:</strong>
-              A compact mobile robot that can collect unmarked trolleys in dynamic and complex environments.
-              <br>
-            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2110.06648" target="_blank">Paper</a>
-            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.youtube.com/watch?v=6SwjgGvRtno" target="_blank">Video</a>
-          </p>
-        </div>
-      </div>
-      <p></p> 
-
-      <!-- Collaborative Trolley Transportation System -->
-      <div class="row">
-        <div class="col-lg-3 pt-lg-2">
-          <img src="assets/img/demo/trolley_trans.gif" class="img-fluid" alt="">
-        </div>
-        <div class="col-lg-9 pt-4 pt-lg-0 content">
-          <h4><strong>Collaborative Trolley Transportation System with Autonomous Nonholonomic Robots</strong></h4>
-          <p class="font-italic">
-            <font size="4pt">
-              <em>
-                IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2023.
-              </em>
-            </font>
-            <br>
-            <font size="4pt" color="grey">Bingyi Xia, Hao Luan, Ziqi Zhao, Xuheng Gao, Peijia Xie, <strong>Anxing Xiao</strong> (Mentor), Jiankun Wang, Max Q-H Meng</font>
-            <br>
-            <br>
-            <font size="4pt" > 
-              <strong>TL;DR:</strong>
-              Multi-robot system for collaborative luggage trolley transportation in complex dynamic environments.
-              <br>
-            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2303.06624" target="_blank">Paper</a>
-            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.youtube.com/watch?v=efnPERm0Rco&feature=youtu.be" target="_blank">Video</a>
-          </p>
-        </div>
-      </div>
-
-      <p></p> 
-
-      <!-- PUTN -->
-      <div class="row">
-        <div class="col-lg-3 pt-lg-2">
-          <img src="assets/img/demo/navigation.gif" class="img-fluid" alt="">
-        </div>
-        <div class="col-lg-9 pt-4 pt-lg-0 content">
-          <h4><strong>PUTN: A Plane-fitting based Uneven Terrain Navigation Framework</strong></h4>
-          <p class="font-italic">
-            <font size="4pt">
-              <em>
-                IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2022.
-              </em>
-            </font>
-            <br>
-            <font size="4pt" color="grey">Zhuozhu Jian, Zihong Lu, Xiao Zhou, Bin Lan, <strong>Anxing Xiao</strong> (Mentor), Xueqian Wang, Bin Liang</font>
-            <br>
-            <br>
-            <font size="4pt" > 
-              <strong>TL;DR:</strong>
-              Plane-fitting based navigation framework for effective traversal on uneven terrain.
-              <br>
-            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2203.04541" target="_blank">Paper</a>
-            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.youtube.com/watch?v=3ZK-Ut29hLI" target="_blank">Video</a>
-            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/jianzhuozhuTHU/putn" target="_blank">Code</a>
-
-          </p>
-
-        </div>
-      </div>
-
-      <p></p>
-
-      <!-- Autonomous Navigation with Optimized Jumping -->
-      <div class="row">
-        <div class="col-lg-3 pt-lg-2">
-          <img src="assets/img/demo/jump.gif" class="img-fluid" alt="">
-        </div>
-        <div class="col-lg-9 pt-4 pt-lg-0 content">
-          <h4><strong>Autonomous Navigation with Optimized Jumping through Constrained Obstacles on Quadrupeds</strong></h4>
-          <p class="font-italic">
-            <font size="4pt">
-              <em>
-                IEEE Conference on Automation Science and Engineering (CASE) 2021.
-              </em>
-            </font>
-            <br>
-            <font size="4pt" color="grey">Scott Gilroy, Derek Lau, Lizhi Yang, Ed Izaguirre, Kristen Biermayer, <strong>Anxing Xiao</strong>, Mengti Sun, Ayush Agrawal, Jun Zeng, Zhongyu Li, Koushil Sreenath</font>
-            <br>
-            <br>
-            <font size="4pt" > 
-              <strong>TL;DR:</strong>
-              End-to-end framework enabling quadrupedal robots to jump through window-shaped obstacles during navigation.
-              <br>
-            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2107.00773" target="_blank">Paper</a>
-            <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.youtube.com/watch?v=5pzJ8U7YyGc" target="_blank">Video</a>
-          </p>
-        </div>
-      </div>
-
-      <p></p> <br>
-
-    </div>
-
-    <div class="container">
-
-      <div class="section-title">
-        <h2>Media</h2>
-      </div>
-
-      <div class="row">
-
-        <div class="col-lg-12 pt-2 pt-lg-0 content">
-          <h2>Robotic Guide Dog [Apr. 2021]</h2>
-          <ul>
-          <li><i class="icofont-rounded"></i><a href= "https://techxplore.com/news/2021-04-robotic-dog-individuals.html" target="_blank">Tech Xplore</a> </li>
-          <li><i class="icofont-rounded"></i><a href= "https://mp.weixin.qq.com/s/U0c1rOuDCF3dgkoG0zMx9Q" target="_blank">MIT Technology Review Chinese (DeepTech)</a></li>
-          <li><i class="icofont-rounded"></i><a href= "https://www.newscientist.com/article/2273390-robot-guide-dog-could-help-people-who-are-blind-navigate/" target="_blank"> New Scientist</a></li>
-          <li><i class="icofont-rounded"></i><a href= "https://www.dailymail.co.uk/sciencetech/article-9441691/Robots-Scientists-develop-four-legged-guide-dog-bot-lead-blind-people-obstacles.html" target="_blank">Daily Mail</a> </li>
-          <li><i class="icofont-rounded"></i><a href= "https://theindependent.sg/robotic-dog-to-guide-the-blind-and-visually-impaired/" target="_blank">The Independent</a> </li>
-          <li><i class="icofont-rounded"></i><a href= "https://techxplore.com/news/2021-04-laser-equipped-robotic-dog-people.html" target="_blank">Tech Xplore</a> </li>
-          <li><i class="icofont-rounded"></i><a href= "https://www.dailycal.org/2021/04/12/uc-berkeley-researchers-create-robotic-guide-dog-for-visually-impaired-people/" target="_blank">Daily Californian</a> </li>
-          </ul>
-        </div>
-      </div>
-
-    </div>
-
-  </section> 
-
-  <div class="credits">
-    &copy; Anxing Xiao (01/2024)
-    <br>
-    Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-  </div>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main-multipage.js"></script>
-
-  <!-- Research Diagram Styling and Interactivity -->
-  <style>
-    .research-block {
-      cursor: pointer;
-      transition: all 0.3s ease;
-    }
-    
-    .research-block:hover .block-rect {
-      fill: #18d26e !important;
-      filter: drop-shadow(0 4px 8px rgba(24, 210, 110, 0.3));
-    }
-    
-    .research-block:hover text {
-      fill: #f8f8f8 !important;
-    }
-    
-    .connection-line {
-      transition: all 0.3s ease;
-    }
-    
-    .connection-line.highlight {
-      stroke-width: 4 !important;
-      opacity: 1 !important;
-      stroke: black !important;
-    }
-  </style>
-
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      const researchBlocks = document.querySelectorAll('.research-block');
-      const connectionLines = document.querySelectorAll('line');
-      
-      // Add connection-line class to all lines
-      connectionLines.forEach(line => {
-        line.classList.add('connection-line');
-      });
-      
-      researchBlocks.forEach(block => {
-        block.addEventListener('mouseenter', function() {
-          // Highlight all connection lines when hovering over any block
-          connectionLines.forEach(line => {
-            line.classList.add('highlight');
-          });
+                    <div class="bg-white/60 p-6 rounded-lg border border-gray-200">
+                        <div class="flex flex-row gap-6">
+                            <div class="w-64 flex-shrink-0">
+                                <img src="assets/img/demo/jump.gif" class="w-full aspect-[16/9] object-cover rounded" alt="Jumping Quadruped">
+                            </div>
+                            <div class="flex-1 space-y-1">
+                                <h3 class="text-gray-800">Autonomous Navigation with Optimized Jumping through Constrained Obstacles on Quadrupeds</h3>
+                                <p class="text-gray-700 italic">IEEE Conference on Automation Science and Engineering (CASE) 2021.</p>
+                                <p class="text-gray-600">Scott Gilroy, Derek Lau, Lizhi Yang, Ed Izaguirre, Kristen Biermayer, <strong>Anxing Xiao</strong>, Mengti Sun, Ayush Agrawal, Jun Zeng, Zhongyu Li, Koushil Sreenath</p>
+                                <div class="pt-1">
+                                    <p class="text-gray-700"><strong>TL;DR:</strong> Enable quadrupeds to jump through window-shaped obstacles during navigation.</p>
+                                </div>
+                                <div class="flex flex-wrap gap-2 pt-1">
+                                    <a href="https://arxiv.org/abs/2107.00773" class="button" target="_blank">Paper</a>
+                                    <a href="https://www.youtube.com/watch?v=5pzJ8U7YyGc" class="button" target="_blank">Video</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script>
+        // Navbar active link highlight
+        (function() {
+            const path = (window.location.pathname.split('/').pop() || 'index.html');
+            const links = document.querySelectorAll('header nav a');
+            links.forEach(link => {
+                const href = link.getAttribute('href');
+                const isIndex = (path === '' || path === 'index.html');
+                const matches = (isIndex && href.endsWith('index.html')) || href.endsWith(path);
+                if (matches) {
+                    link.classList.remove('text-blue-300');
+                    link.classList.add('text-white','underline');
+                }
+            });
+        })();
+    </script>
+    <script>
+        // Research diagram hover interactions (removed line thickness change)
+        document.addEventListener('DOMContentLoaded', function() {
+            // Hover effects are now handled by CSS only
         });
-        
-        block.addEventListener('mouseleave', function() {
-          // Remove highlight from all connection lines
-          connectionLines.forEach(line => {
-            line.classList.remove('highlight');
-          });
-        });
-        
-        // Optional: Add click functionality to scroll to corresponding section
-        block.addEventListener('click', function() {
-          const area = this.getAttribute('data-area');
-          let targetId = '';
-          
-          switch(area) {
-            case 'planning':
-              targetId = 'reasoning';
-              break;
-            case 'social':
-              targetId = 'social_robots';
-              break;
-            case 'navigation':
-              targetId = 'navigation';
-              break;
-          }
-          
-          if (targetId) {
-            const targetElement = document.getElementById(targetId);
-            if (targetElement) {
-              targetElement.scrollIntoView({ behavior: 'smooth' });
-            }
-          }
-        });
-      });
-    });
-  </script>
-
+    </script>
 </body>
+</html>
 
-</html> 
+

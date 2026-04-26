@@ -51,15 +51,19 @@
                 <div class="space-y-6">
                     <h3 class="text-gray-800">Lab Resources</h3>
                     <p class="text-gray-700">Our lab is equipped with cutting-edge robotics hardware and computing infrastructure to support advanced research:</p>
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                        <div>
-                            <img src="assets/img/RobotLivingStudio.png" class="h-80 w-auto object-contain rounded shadow" alt="Robot Living Studio">
-                            <p class="text-center italic text-gray-800 mt-2">Robot Living Studio - Our Real-world testing environment</p>
-                        </div>
-                        <div>
-                            <img src="assets/img/Robots.png" class="h-80 w-full object-contain rounded shadow" alt="Lab Robots">
-                            <p class="text-center italic text-gray-800 mt-2">Autolife, Fetch, and Kinova Gen3 in the kitchen area</p>
-                        </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
+                        <figure class="flex flex-col h-full">
+                            <div class="h-80 w-full overflow-hidden rounded shadow bg-white/70 flex items-center justify-center">
+                                <img src="assets/img/RobotLivingStudio.png" class="h-full w-full object-contain" alt="Robot Living Studio">
+                            </div>
+                            <figcaption class="text-center italic text-gray-800 mt-2">Robot Living Studio - Our Real-world testing environment</figcaption>
+                        </figure>
+                        <figure class="flex flex-col h-full">
+                            <div class="h-80 w-full overflow-hidden rounded shadow bg-white/70 flex items-center justify-center">
+                                <img src="assets/img/Robots.png" class="h-full w-full object-contain" alt="Lab Robots">
+                            </div>
+                            <figcaption class="text-center italic text-gray-800 mt-2">Autolife, Fetch, and Kinova Gen3 in the kitchen area</figcaption>
+                        </figure>
                     </div>
 
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -200,5 +204,3 @@
     </script>
 </body>
 </html>
-
-

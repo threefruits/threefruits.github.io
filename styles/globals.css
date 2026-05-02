@@ -87,6 +87,11 @@ li {
   color: #f0f8ff !important;
 }
 
+/* Real accent blue (Tailwind text-blue-600 is remapped above for dark theme nav) */
+.text-accent-blue {
+  color: #7299ec !important;
+}
+
 .hover\:text-blue-600:hover {
   color: #f0f8ff !important;
 }

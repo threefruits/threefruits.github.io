@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World - Anxing Xiao</title>
+    <meta name="description" content="A short starter post for this site’s blog. Replace or remove it when you publish your first real note.">
+    <meta property="og:title" content="Hello World - Anxing Xiao">
+    <meta property="og:description" content="A short starter post for this site’s blog. Replace or remove it when you publish your first real note.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://anxingxiao.com/blog/hello-world.html">
+    <meta property="og:image" content="https://anxingxiao.com/assets/img/Robots.png">
+    <meta property="og:image:alt" content="Hello World cover">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Hello World - Anxing Xiao">
+    <meta name="twitter:description" content="A short starter post for this site’s blog.">
+    <meta name="twitter:image" content="https://anxingxiao.com/assets/img/Robots.png">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Hello World",
+      "datePublished": "2026-07-20",
+      "author": {
+        "@type": "Person",
+        "name": "Anxing Xiao",
+        "url": "https://anxingxiao.com/"
+      },
+      "image": "https://anxingxiao.com/assets/img/Robots.png",
+      "description": "A short starter post for this site’s blog. Replace or remove it when you publish your first real note.",
+      "mainEntityOfPage": "https://anxingxiao.com/blog/hello-world.html"
+    }
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../styles/globals.css">
+</head>
+<body>
+    <div class="background-image"></div>
+
+    <header class="bg-gradient-to-r from-teal-700 to-blue-900 shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-8 py-4">
+            <div class="flex items-center justify-between">
+                <h1 class="text-white">Anxing Xiao</h1>
+                <nav class="flex gap-4">
+                    <a href="../index.html" class="inline-block px-3 py-1 rounded-md text-white hover:text-white hover:bg-blue-200/10 transition-colors">About Me</a>
+                    <a href="../research.html" class="inline-block px-3 py-1 rounded-md text-white hover:text-white hover:bg-blue-200/10 transition-colors">Research</a>
+                    <a href="../publications.html" class="inline-block px-3 py-1 rounded-md text-white hover:text-white hover:bg-blue-200/10 transition-colors">Publications</a>
+                    <a href="../blog.html" class="inline-block px-3 py-1 rounded-md text-white hover:text-white hover:bg-blue-200/10 transition-colors">Blog</a>
+                    <a href="../misc.html" class="inline-block px-3 py-1 rounded-md text-white hover:text-white hover:bg-blue-200/10 transition-colors">Misc</a>
+                    <a href="../join.html" class="inline-block px-3 py-1 rounded-md text-white hover:text-white hover:bg-blue-200/10 transition-colors">Join Us</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="py-8">
+        <section class="max-w-7xl mx-auto px-8 py-2">
+            <div class="bg-white/60 backdrop-blur-sm p-8 rounded-lg shadow-lg">
+                <p class="mb-4">
+                    <a href="../blog.html">&larr; Back to Blog</a>
+                </p>
+
+                <article class="blog-post">
+                    <header class="mb-6">
+                        <h2 class="text-gray-800 mb-2">Hello World</h2>
+                        <p class="text-gray-600">July 20, 2026</p>
+                        <div class="border-t-2 border-gray-400 w-24 mt-4 mb-5"></div>
+                        <img class="blog-cover-image"
+                             src="../assets/img/Robots.png"
+                             alt="Hello World cover"
+                             width="1200"
+                             height="630">
+                    </header>
+
+                    <div class="blog-post-body">
+                        <p>
+                            Welcome to the blog. This is a lightweight static post page that matches the rest of the site.
+                        </p>
+                        <p>
+                            To publish a new note: copy this file under <code>blog/</code>, update the title, body, and cover image,
+                            then add an entry to <a href="../blog.html">blog.html</a>. Use the same image in the
+                            <code>og:image</code> / <code>twitter:image</code> meta tags so Google and social previews show a snapshot.
+                        </p>
+                        <h3>What belongs here</h3>
+                        <p>
+                            Research notes, system design thoughts, project write-ups, or anything else worth sharing
+                            outside of a formal paper.
+                        </p>
+                        <p>
+                            Replace this placeholder whenever you are ready to write the first real post.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+    <script>
+        (function() {
+            const links = document.querySelectorAll('header nav a');
+            links.forEach(link => {
+                const href = link.getAttribute('href') || '';
+                if (href.endsWith('blog.html')) {
+                    link.classList.add('text-white', 'underline');
+                }
+            });
+        })();
+    </script>
+</body>
+</html>

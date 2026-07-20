@@ -22,14 +22,14 @@ body {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  z-index: -1;
+  z-index: -2;
 }
 
 body::before {
   content: "";
   position: fixed;
   inset: 0;
-  background: rgba(5, 10, 22, 0.6);
+  background: rgba(5, 10, 22, 0.56);
   z-index: -1;
   pointer-events: none;
 }
@@ -49,7 +49,7 @@ header nav a:hover {
 }
 
 a {
-  color: #d6b18e !important;
+  color: #f4b995 !important;
   transition: color 0.2s ease;
 }
 
@@ -89,7 +89,7 @@ li {
 
 /* Real accent blue (Tailwind text-blue-600 is remapped above for dark theme nav) */
 .text-accent-blue {
-  color: #7299ec !important;
+  color: #8ab9e9 !important;
 }
 
 .hover\:text-blue-600:hover {

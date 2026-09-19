@@ -1,0 +1,10 @@
+{
+  "name": "anxingxiao-website",
+  "private": true,
+  "scripts": {
+    "build:css": "tailwindcss -i ./styles/tailwind.input.css -o ./styles/tailwind.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "3.4.17"
+  }
+}
